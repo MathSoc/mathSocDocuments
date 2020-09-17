@@ -1,0 +1,28 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{bylaws}[2015/06/01 MathSoc Package]
+
+\RequirePackage{comment}
+\lhead{Bylaws}
+
+\titleformat{\section}{\bfseries \LARGE \scshape}
+{Article \thesection.}{1.6em}{}
+\title{Bylaws}
+
+\newif\ifannotations%
+\annotationstrue
+
+\ifannotations
+\newenvironment{annotation}{
+    \begin{itshape}
+    \begin{description}
+        \item[Author's Note:]
+}{
+    \end{description}
+    \end{itshape}
+}
+\else
+\excludecomment{annotation}
+\fi
+
+\endinput 
+%% End of file bylaws.sty

@@ -1,0 +1,309 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{../mathsoc}[2015/06/01 MathSoc Package]
+
+\RequirePackage[margin=1in]{geometry}
+\RequirePackage{pdfpages}
+\RequirePackage{graphicx}
+
+\RequirePackage{titlesec}
+\RequirePackage[utf8]{inputenc}
+
+%% MATH
+\RequirePackage{amsmath}
+\RequirePackage{amsfonts}
+\RequirePackage{amssymb}
+
+\RequirePackage{hyperref}
+\RequirePackage{tocloft}
+
+\RequirePackage{fancyhdr}
+\RequirePackage{enumitem}
+
+\RequirePackage{longtable}
+\RequirePackage{booktabs}
+
+%% Font things
+\RequirePackage[T1]{fontenc}
+\RequirePackage{anyfontsize}
+\RequirePackage{lmodern} \normalfont %to load T1lmr.fd
+
+\RequirePackage[normalem]{ulem}
+
+\hypersetup{
+  colorlinks=false,
+  linktoc=all
+}
+
+% Description lists are indented
+\setlist[description]{leftmargin=\parindent,labelindent=\parindent}
+
+
+% Tranditional Tex commands
+
+\DeclareFontShape{T1}{lmr}{bx}{sc} { <-> ssub * cmr/bx/sc }{}
+
+
+
+\titleformat*{\subsection}{\Large \bfseries \scshape}
+\titleformat*{\subsubsection}{\large \bfseries \scshape}
+
+\makeatletter\renewcommand{\@pnumwidth}{9em}\makeatother
+
+\renewcommand{\cftsecnumwidth}{2em}
+\renewcommand{\cftsubsecfont}{\sffamily}
+\renewcommand{\cftsubsecnumwidth}{3em}
+\renewcommand{\cftsubsubsecfont}{\sffamily}
+\renewcommand{\cftsubsubsecindent}{2.5em}
+\renewcommand{\cftsubsubsecnumwidth}{3.4em}
+\renewcommand{\familydefault}{\rmdefault}
+
+
+%\renewcommand{\thesection}{\Roman{section}}
+
+\renewcommand{\cftsecnumwidth}{2em}
+\renewcommand{\cftsubsecfont}{\sffamily}
+\renewcommand{\cftsubsecnumwidth}{3em}
+\renewcommand{\cftsubsubsecfont}{\sffamily}
+\renewcommand{\cftsubsubsecindent}{2.5em}
+\renewcommand{\cftsubsubsecnumwidth}{3.4em}
+
+% Formatting TOC
+\setcounter{tocdepth}{2}
+
+% Header stuff
+\pagestyle{fancy}
+\fancyhead{}
+
+\newcommand{\logo}{../logo.pdf}
+\newcommand{\defvar}[2]{\def#1##1{\gdef#2{##1}}#1{}}
+
+% Macros
+\newcommand{\HRule}{\rule{\linewidth}{0.4mm}}
+\newcommand{\hlabel}{\phantomsection\label}
+\newcommand{\mathsoctitle}{\input{../title}}
+
+%% Process options
+
+%% 'agenda' option
+\DeclareOption{agenda}{%
+% Description lists are indented
+\setlist[description]{leftmargin=\parindent,labelindent=\parindent}
+
+%  \renewcommand{\familydefault}{\sfdefault}
+  \newcounter{agendaTimeMin}
+  \newcounter{agendaTimeHour}
+  \title{Agenda}
+  
+  % current address, appears in left column
+  \defvar{\agendaDate}{\printAgendaDate}
+  \defvar{\meetingDate}{\printMeetingDate}
+  \defvar{\meetingLocation}{\printMeetingLocation}
+  \defvar{\speaker}{\printSpeaker}
+  \defvar{\secretary}{\printSecretary}
+  
+   %% Header stuff
+   \lhead{Mathematics Society Council}
+   \rhead{\printMeetingDate}
+  
+  %\mathsoctitle
+  \newcommand{\header}{\begin{center}
+  	% Title
+  	{ \huge \bfseries Agenda \\[0.4cm] }
+  	{\textsc{~\textbf{\printMeetingDate} at \textbf{\theagendaTimeHour:\theagendaTimeMin\ifnum\value{agendaTimeMin}<10 0\fi} in \textbf{\printMeetingLocation}}}
+  	\\[0.2cm]
+  	
+  	\begin{minipage}[t]{0.5\textwidth}
+  		\begin{flushleft} \large
+  			\emph{Speaker:}
+  			\textsc{\printSpeaker}
+  		\end{flushleft}
+  	\end{minipage}%
+  	\begin{minipage}[t]{0.5\textwidth}
+  		\begin{flushright} \large
+  			\emph{Secretary:} 
+  			\textsc{\printSecretary}
+  		\end{flushright}
+  	\end{minipage}
+  	
+  	\HRule \\[0.4cm]
+  \end{center}}
+  
+%  \ifnum\value{agendaTimeMin}>\value{minnumber}11 correct\else oops\fi
+  
+  
+  %agenda items
+  \newenvironment{business}{
+  	% begin code
+  	\newcommand{\motion}[3]{
+  		% text is printed
+  		\item[##1 | Motion]  \hfill \theagendaTimeHour:\theagendaTimeMin\ifnum\value{agendaTimeMin}<10 0\fi \\
+  		##3
+  		% then we incriment the counter
+  		\addtocounter{agendaTimeMin}{##2}
+  		\ifnum\value{agendaTimeMin}>59 
+  		\setcounter{agendaTimeMin}{\numexpr \value{agendaTimeMin} - 60} \stepcounter{agendaTimeHour}
+  		\fi\\
+  		}
+  	\newcommand{\information}[3]{
+  		\item[##1 | Information]  \hfill \theagendaTimeHour:\theagendaTimeMin\ifnum\value{agendaTimeMin}<10 0\fi \\
+  		##3
+  		% then we incriment the counter
+  		\addtocounter{agendaTimeMin}{##2}
+  		\ifnum\value{agendaTimeMin}>59 
+  		\setcounter{agendaTimeMin}{\numexpr \value{agendaTimeMin} - 60} \stepcounter{agendaTimeHour}
+  		\fi\\
+  		}
+  	\newcommand{\discussion}[3]{
+  		\item[##1 | Discussion]  \hfill \theagendaTimeHour:\theagendaTimeMin\ifnum\value{agendaTimeMin}<10 0\fi \\
+  		##3
+  		% then we incriment the counter
+  		\addtocounter{agendaTimeMin}{##2}
+  		\ifnum\value{agendaTimeMin}>59 
+  		\setcounter{agendaTimeMin}{\numexpr \value{agendaTimeMin} - 60} \stepcounter{agendaTimeHour}
+  		\fi\\
+  		}
+      \newcommand{\presentation}[3]{
+          \item[##1 | Presentation]  \hfill \theagendaTimeHour:\theagendaTimeMin\ifnum\value{agendaTimeMin}<10 0\fi \\
+          ##3
+          % then we incriment the counter
+          \addtocounter{agendaTimeMin}{##2}
+          \ifnum\value{agendaTimeMin}>59 
+          \setcounter{agendaTimeMin}{\numexpr \value{agendaTimeMin} - 60} \stepcounter{agendaTimeHour}
+          \fi\\
+          }
+  	\begin{description}
+  	}{ 
+  	% end code
+	\end{description}
+	}
+}
+
+%% 'minutes' option
+\DeclareOption{minutes}{
+	
+	% Title
+	
+	% current address, appears in left column
+	\defvar{\meetingTime}{\printMeetingTime}
+	\defvar{\meetingDate}{\printMeetingDate}
+	\defvar{\meetingLocation}{\printMeetingLocation}
+	\defvar{\speaker}{\printSpeaker}
+	\defvar{\secretary}{\printSecretary}
+	
+	
+	%\mathsoctitle
+	\newcommand{\header}{\begin{center}
+			% Title
+			{ \huge \bfseries Minutes \\[0.4cm] }
+			{\textsc{~\textbf{\printMeetingDate} at \textbf{\printMeetingTime} in \textbf{\printMeetingLocation}}}
+			\\[0.2cm]
+			
+			\begin{minipage}[t]{0.5\textwidth}
+				\begin{flushleft} \large
+					\emph{Speaker:}
+					\textsc{\printSpeaker}
+				\end{flushleft}
+			\end{minipage}%
+			\begin{minipage}[t]{0.5\textwidth}
+				\begin{flushright} \large
+					\emph{Secretary:} 
+					\textsc{\printSecretary}
+				\end{flushright}
+			\end{minipage}
+			
+			\HRule \\[0.4cm]
+		\end{center}}
+  
+  %minute items
+  \newenvironment{business}{
+  	% begin code
+  	\newcommand{\motion}[3]{
+  		% text is printed
+  		\item[Motion | ##1, seconded by ##2]
+  		##3
+  	}
+  	\newcommand{\information}[2]{
+  		% text is printed
+  		\item[Information | ##1] 
+  		##2
+  	}
+  	\newcommand{\discussion}[2]{
+  		\item[##1 | Discussion] 
+  		##2
+  	}
+      \newcommand{\presentation}[2]{
+          \item[##1 | Presentation] 
+          ##2
+      }
+  	\begin{description}}{
+  	% end code 
+  	\end{description}} % done new environment
+}
+
+%% 'policy' option
+\DeclareOption{policy}{
+	% new page for each section
+	\newcommand{\sectionbreak}{\clearpage}
+	\titleformat{\section}{\bfseries \LARGE \scshape}
+	{Policy \thesection.}{1.6em}{}
+	\title{Policies}
+}
+
+%% 'procedure' option
+\DeclareOption{procedure}{
+
+}
+
+%% 'bylaw' option
+\DeclareOption{bylaw}{
+	\titleformat{\section}{\bfseries \LARGE \scshape}
+	{Article \thesection.}{1.6em}{}
+	\title{Bylaws}
+}
+
+%% 'stance' option
+\DeclareOption{stance}{}
+
+
+    % \renewcommand{\familydefault}{\sfdefault}
+%% 'mou' option
+\DeclareOption{mou}{
+    \defvar{\orgOne}{\printOrgOne}
+    \defvar{\orgTwo}{\printOrgTwo}
+    \defvar{\signed}{\printSigned}
+    \defvar{\expires}{\printExpires}
+  
+    \newcommand{\titledate}[2][2.5in]{%
+        \vspace*{0.5in}
+        \noindent%
+        \begin{tabular}{@{}p{#1}@{}}
+            \\ \hline \\[-.75\normalbaselineskip]
+            #2
+        \end{tabular} \hspace{1in}
+        \begin{tabular}{@{}p{#1}@{}}
+            \\ \hline \\[-.75\normalbaselineskip]
+            Date
+    \end{tabular}
+    }
+
+  %\mathsoctitle
+  \newcommand{\header}{\begin{center}
+  	% Title
+    {\huge{\bfseries Memorandum of Understanding}\\[0.4cm]}
+  	{\textsc{between}\\}
+  	{\large \bfseries \printOrgOne\\}
+  	{\textsc{and}\\}
+  	{\large \bfseries \printOrgTwo\\}
+    {\textsc{\emph{of the University of Waterloo, effective from}}\\}
+    {\large \bfseries \printSigned\\}
+  	{\textsc{until}\\}
+  	{\large \bfseries \printExpires\\}
+    ~\\[0.2cm]
+  	
+  	\HRule ~\\[0.4cm]
+  \end{center}}
+}
+
+\ProcessOptions\relax
+\endinput 
+%% End of file ../mathsoc.sty

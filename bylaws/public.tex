@@ -1,0 +1,41 @@
+\documentclass[11pt]{mathsoc}
+\usepackage{bylaws}
+
+\begin{document}
+% \annotationsfalse% we don't want annotations in the public version
+\annotationstrue% if annotations are desired, uncomment this
+
+%%% TITLE PAGE
+\input{./content/title.tex}
+
+%%% The Forward, Roberts Rules of Order, and a guide
+\ifannotations
+\input{./content/introduction.tex}
+\fi
+
+%%% TABLE OF CONTENTS
+\setcounter{tocdepth}{4}
+{\large \tableofcontents}
+
+\newpage
+%%% CONSTITUTION & BYLAWS
+\input{./content/name.tex}
+\input{./content/object.tex}
+\input{./content/definitions.tex}
+\input{./content/parlimentary_authority.tex}
+\input{./content/membership.tex}
+\input{./content/board.tex}
+\input{./content/council.tex}
+\input{./content/officers.tex}
+\input{./content/elections.tex}
+\input{./content/signing.tex}
+\input{./content/general_meetings.tex}
+\input{./content/referenda.tex}
+\input{./content/collapse_and_dissolution.tex}
+\input{./content/amendments.tex}
+%%%APPENDICES
+\appendix
+\titleformat{\section}{\bfseries \LARGE \rmfamily}{Appendix \thesection.}{1.6em}{}
+\input{./appendices/method_of_equal_proportions.tex}
+
+\end{document}

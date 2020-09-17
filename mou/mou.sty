@@ -1,0 +1,47 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{mou}[2015/06/01 MathSoc Package]
+
+%\renewcommand{\familydefault}{\sfdefault}
+%% 'mou' option
+\defvar{\orgOne}{\printOrgOne}
+\defvar{\orgTwo}{\printOrgTwo}
+\defvar{\signed}{\printSigned}
+\defvar{\expires}{\printExpires}
+
+% header stuff
+\lhead{page: \thepage}
+\chead{}
+\rhead{The Mathematics Society}
+% Takes a position organization and creates a signiture line with date
+\newcommand{\signline}[2][2.5in]{%
+    \vspace*{0.5in}
+    \noindent%
+    \begin{tabular}{@{}p{#1}@{}}
+        \\ \hline \\[-.75\normalbaselineskip]
+        #2
+    \end{tabular} \hspace{1in}
+    \begin{tabular}{@{}p{#1}@{}}
+        \\ \hline \\[-.75\normalbaselineskip]
+        Date
+\end{tabular}
+}
+
+%\mathsoctitle
+\newcommand{\header}{\begin{center}
+    % Title
+    {\huge{\bfseries Memorandum of Understanding}\\[0.4cm]}
+    {\textsc{between}\\}
+    {\large \bfseries \printOrgOne\\}
+    {\textsc{and}\\}
+    {\large \bfseries \printOrgTwo\\}
+    {\textsc{\emph{of the University of Waterloo, effective from}}\\}
+    {\large \bfseries \printSigned\\}
+    {\textsc{until}\\}
+    {\large \bfseries \printExpires\\}
+    ~\\[0.2cm]
+
+    \HRule ~\\[0.4cm]
+\end{center}}
+
+\endinput 
+%% End of file mou.sty
