@@ -14,3 +14,14 @@ Please feel free to update the README.md for clarity purposes.
 
 Reach out to the VPA, Secretary or Speaker for more information on this process. 
 
+
+## How to Edit
+1. From the VPO repository "fork" the repository to create your own copy of the documents. 
+2. Go to overleaf.com and make an account/sign in
+3. Ensure your overleaf has access to your github
+4. Create a new project from the repo you just pulled or ensure you are on the latest branch
+5. Make your changes
+6. Push to github
+7. Make a PR request on github for the changes and email the VPO
+
+
