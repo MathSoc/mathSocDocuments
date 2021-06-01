@@ -1,6 +1,7 @@
 \documentclass[12pt,letterpaper,table]{mathsoc}
 \usepackage{procedures}
 %\usepackage[table]{xcolor} %% for the table in elections policy 1.6.2
+\usepackage{cleveref} % For smart reference numbering and links
 
 \begin{document}
 \pagenumbering{roman}
@@ -9,18 +10,18 @@
 {\large \tableofcontents}
 
 \cleardoublepage\pagenumbering{arabic}
-\input{elections.tex}
-\input{cnd.tex}
-\input{bookings.tex}
-\input{external-funding.tex}
-\input{clubs.tex}
-\input{keys.tex}
-\input{signing.tex}
+\input{elections}
+\input{cnd}
+\input{bookings}
+\input{external-funding}
+\input{clubs}
+\input{keys}
+\input{signing}
 \input{lockers}
 \input{evaluations}
 
 %%%% The ODT Stuff here
-\input{staff.tex}
+\input{staff}
 \input{appointments}
 \input{computing}
 \input{novelties}
