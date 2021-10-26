@@ -11,18 +11,18 @@
 \newif\ifannotations%
 \annotationstrue
 
-\ifannotations
-\newenvironment{annotation}{
-    \begin{itshape}
-    \begin{description}
-        \item[Author's Note:]
-}{
-    \end{description}
-    \end{itshape}
-}
-\else
+% \ifannotations
+% \newenvironment{annotation}{
+%     \begin{itshape}
+%     \begin{description}
+%         \item[Author's Note:]
+% }{
+%     \end{description}
+%     \end{itshape}
+% }
+% \else
 \excludecomment{annotation}
-\fi
+% \fi
 
 \endinput 
 %% End of file bylaws.sty
