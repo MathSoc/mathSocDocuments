@@ -81,7 +81,7 @@
 \pagestyle{fancy}
 \fancyhead{}
 
-\newcommand{\logo}{../logo.pdf}
+\newcommand{\logo}{../logo.png}
 \newcommand{\defvar}[2]{\def#1##1{\gdef#2{##1}}#1{}}
 
 % Macros
