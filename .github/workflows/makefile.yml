@@ -13,8 +13,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
-    - name: configure
+      name: configure
+    - name: compile
+      uses: xu-cheng/latex-action@v2
+    - name: make
       run: |
         cd policies
         make all
