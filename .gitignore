@@ -31,7 +31,6 @@
 *-blx.aux
 *-blx.bib
 *.run.xml
-
 ## Build tool auxiliary files:
 *.fdb_latexmk
 *.synctex
@@ -274,3 +273,7 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# Build files
+bin/*
+dist/*
