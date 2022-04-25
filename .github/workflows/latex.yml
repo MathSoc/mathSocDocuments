@@ -1,0 +1,13 @@
+name: Test GitHub Action
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Compile LaTeX document
+        uses: Sakul6499/GitHub-Action-LaTeX@v0.0.1
+        with:
+          latex_main_file: my_latex_file.tex
