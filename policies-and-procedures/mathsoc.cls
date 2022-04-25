@@ -25,6 +25,7 @@
 \RequirePackage{tocloft}
 \RequirePackage{hyperref}
 \RequirePackage{titlesec}
+\RequirePackage{titletoc}
 
 % we are heathens and don't use A4 paper
 \RequirePackage[papersize={8.5in,11in},margin=1in]{geometry}
@@ -64,6 +65,16 @@
 \titleformat*{\subsection}{\Large \bfseries \scshape}
 \titleformat*{\subsubsection}{\large \bfseries \scshape}
 
+% \titlecontents{section}[4.1em]{}{}{\hspace*{-20.3em}}{\titlerule*[8pt]{.}\contentspage}
+% \titlecontents{subsection}[6.4em]{}{}{\hspace*{-2.3em}}{\titlerule*[8pt]{.}\contentspage}
+
+
+\titlecontents{subsection}[5em]
+{}%
+{}% numbered sections formatting
+{\itshape}% unnumbered sections formatting
+{\textbullet\}%
+
 \makeatletter\renewcommand{\@pnumwidth}{9em}\makeatother
 
 \renewcommand{\cftsecnumwidth}{2em}
@@ -81,12 +92,13 @@
 \pagestyle{fancy}
 \fancyhead{}
 
-\newcommand{\logo}{../logo.png}
+\newcommand{\logo}{../logo}
 \newcommand{\defvar}[2]{\def#1##1{\gdef#2{##1}}#1{}}
 
 % Macros
 \newcommand{\HRule}{\rule{\linewidth}{0.4mm}}
 \newcommand{\hlabel}{\phantomsection\label}
+\newcommand{\mathsoctitle}{\input{../title}}
 
 %% Header stuff
 \lhead{}

@@ -1,0 +1,26 @@
+\documentclass[11pt, letterpaper, table]{mathsoc}
+\usepackage{cleveref}
+
+
+\newcommand{\sectionbreak}{\clearpage}
+\titleformat{\section}{\bfseries \LARGE \scshape}
+{Meeting Policy \thesection.}{1.6em}{}
+\title{Meeting Policies}
+
+\begin{document}
+\pagenumbering{roman}
+
+
+\input{../title.tex}
+
+{\large \tableofcontents}
+
+\cleardoublepage\pagenumbering{arabic}
+
+\input{./meeting-procedures/conflictofinterest}
+\input{./meeting-procedures/council_attendance}
+\input{./meeting-procedures/decisions}
+\input{./meeting-procedures/non-director-chair}
+
+
+\end{document}

@@ -1,0 +1,28 @@
+\documentclass[11pt, letterpaper, table]{mathsoc}
+\usepackage{cleveref}
+
+
+\newcommand{\sectionbreak}{\clearpage}
+\titleformat{\section}{\bfseries \LARGE \scshape}
+{Finance Policy \thesection.}{1.6em}{}
+\title{Finance Policies}
+
+\begin{document}
+\pagenumbering{roman}
+
+
+\input{../title.tex}
+
+{\large \tableofcontents}
+
+\cleardoublepage\pagenumbering{arabic}
+
+\input{./finances/audit}
+\input{./finances/budget}
+\input{./finances/cif}
+\input{./finances/engplay}
+\input{./finances/promises_and_commitments}
+\input{./finances/signing}
+
+
+\end{document}

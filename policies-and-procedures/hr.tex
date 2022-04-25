@@ -1,0 +1,24 @@
+\documentclass[11pt, letterpaper, table]{mathsoc}
+\usepackage{cleveref}
+
+
+\newcommand{\sectionbreak}{\clearpage}
+\titleformat{\section}{\bfseries \LARGE \scshape}
+{HR Policy \thesection.}{1.6em}{}
+\title{HR Policies}
+
+\begin{document}
+\pagenumbering{roman}
+
+
+\input{../title.tex}
+
+{\large \tableofcontents}
+
+\cleardoublepage\pagenumbering{arabic}
+
+\input{./hr-procedures/cnd}
+\input{./hr-procedures/staff}
+
+
+\end{document}
