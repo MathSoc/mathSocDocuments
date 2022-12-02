@@ -33,6 +33,30 @@
 
 \RequirePackage[utf8]{inputenc}
 
+% 2022-12-01 Evan Girardin with TeX help from Tam An Le Quang
+% For rescinded policies/bylaws/procedures
+\newcount\rescinded
+\rescinded=0
+
+\long\def\newRescinded#1#2{%
+	\expandafter\edef\csname\the\rescinded name\endcsname{#1}%
+	\expandafter\edef\csname\the\rescinded body\endcsname{#2}%
+	\expandafter\edef\csname\the\rescinded sec\endcsname{\arabic{section}}%
+	\stepcounter{section}%
+	\advance\rescinded 1%
+}
+
+\def\loopRescinded{%
+    \newcount\x%
+    \x=0%
+    \loop%
+    		\setcounter{subsection}{\csname\the\x sec\endcsname}
+        \subsection{\csname\the\x name\endcsname}%
+        \csname\the\x body\endcsname%
+        \advance\x 1%
+    \ifnum\x<\the\numexpr\rescinded - 1\relax\repeat%
+}
+
 %% MATH
 \RequirePackage{amsmath}
 \RequirePackage{amsfonts}
@@ -57,7 +81,7 @@
   linktoc=all
 }
 
-% Tranditional Tex commands
+% Tranditional TeX commands
 \DeclareFontShape{T1}{lmr}{bx}{sc} {<-> ssub * cmr/bx/sc }{}
 
 \titleformat*{\section}{\Large \bfseries \scshape}
