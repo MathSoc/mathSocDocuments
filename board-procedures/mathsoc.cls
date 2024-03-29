@@ -25,6 +25,7 @@
 \RequirePackage{tocloft}
 \RequirePackage{hyperref}
 \RequirePackage{titlesec}
+\RequirePackage{tabularx}
 
 % we are heathens and don't use A4 paper
 \RequirePackage[papersize={8.5in,11in},margin=1in]{geometry}
