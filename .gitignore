@@ -277,3 +277,6 @@ TSWLatexianTemp*
 # Build files
 bin/
 dist/
+
+# Mac Files
+.DS_Store
