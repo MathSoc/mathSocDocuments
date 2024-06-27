@@ -1,10 +1,15 @@
-\documentclass[12pt, letterpaper]{mathsoc}
+\documentclass[11pt]{mathsoc}
 \usepackage{procedures}
 
 \begin{document}
-\pagenumbering{roman}
-\mathsoctitle
 
+\pagenumbering{roman}
+
+%%% TITLE PAGE
+\input{../bylaws/content/title.tex}
+
+%%% TABLE OF CONTENTS
+\setcounter{tocdepth}{4}
 {\large \tableofcontents}
 
 \cleardoublepage\pagenumbering{arabic}
@@ -16,6 +21,16 @@
 \input{evaluations}
 \input{staff.tex}
 \input{conflictofinterest.tex}
+\input{appointment.tex}
+\input{non-director-chair.tex}
+\input{audit.tex}
+\input{marketing.tex}
+\input{decisions.tex}
+\input{space.tex}
+\input{conduct.tex}
+\input{rentals.tex}
+\input{trainings.tex}
+\input{appendices.tex} % IMPORTANT: MUST ALWAYS COME LAST
 % \input{budget} % TODO write a procedure that dictates how budgeting works wrt
 % Council
 
