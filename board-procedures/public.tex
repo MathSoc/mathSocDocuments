@@ -14,7 +14,7 @@
 
 \cleardoublepage\pagenumbering{arabic}
 \input{cnd.tex}
-\input{bookings.tex} % TODO condense
+\input{bookings.tex}
 \input{keys.tex}
 \input{signing.tex}
 \input{lockers}
@@ -31,8 +31,12 @@
 \input{rentals.tex}
 \input{trainings.tex}
 \input{website.tex}
-\input{appendices.tex} % IMPORTANT: MUST ALWAYS COME LAST
-% \input{budget} % TODO write a procedure that dictates how budgeting works wrt
-% Council
+
+%%% Appendices
+\appendix
+\titleformat{\section}{\bfseries \LARGE \scshape}{Appendix \thesection.}{1.6em}{}
+
+\input{reporting-document.tex}
+\input{rescinded.tex}
 
 \end{document}
