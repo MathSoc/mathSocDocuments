@@ -6,22 +6,20 @@ LATEXMK:=latexmk
 LATEXMKOPT:=-pdf
 CONTINUOUS:=-pvc
 
-ANNOTATED:=annotated.tex
 PUBLIC:=public.tex
 
 mkfile_path:=$(abspath $(lastword $(MAKEFILE_LIST)))
 
 MAIN:=$(notdir $(patsubst %/,%,$(dir $(mkfile_path))))
-ANNOTATED_OUT:=$(MAIN)-annotated
 PUBLIC_OUT:=$(MAIN)-public
 COMPILATION_FOLDER:=bin
 DIST_FOLDER:=dist
 
 SOURCES:=$(DIST_FOLDER) $(COMPILATION_FOLDER)
-SOURCES_C:=$(SOURCES) $(ANNOTATED) Makefile
+SOURCES_C:=$(SOURCES) Makefile
 SOURCES_P:=$(SOURCES) $(PUBLIC) Makefile
 
-all: public annotated
+all: public
 
 .refresh:
 	touch .refresh
@@ -34,14 +32,8 @@ $(COMPILATION_FOLDER):
 
 watch: .refresh $(SOURCES_C) 
 	$(LATEXMK) $(LATEXMKOPT) $(CONTINUOUS) \
-		-pdflatex="$(LATEX) $(LATEXOPT) $(NONSTOP) %O %S" $(ANNOTATED) \
-		-jobname=$(COMPILATION_FOLDER)/$(ANNOTATED_OUT)
-
-annotated: $(SOURCES_C)
-	$(LATEXMK) $(LATEXMKOPT) \
-		-pdflatex="$(LATEX) $(LATEXOPT) $(NONSTOP) %O %S" $(ANNOTATED) \
-		-jobname=./$(COMPILATION_FOLDER)/$(ANNOTATED_OUT)
-	mv ./$(COMPILATION_FOLDER)/$(ANNOTATED_OUT).pdf ./$(DIST_FOLDER)/$(ANNOTATED_OUT).pdf
+		-pdflatex="$(LATEX) $(LATEXOPT) $(NONSTOP) %O %S" \
+		-jobname=$(COMPILATION_FOLDER)/
 
 public: $(SOURCES_P)
 	$(LATEXMK) $(LATEXMKOPT) \
@@ -57,4 +49,4 @@ clean:
 debug:
 	$(LATEX) $(LATEXOPT) $(MAIN)
 
-.PHONY: clean force public annotated watch
+.PHONY: clean force public watch
