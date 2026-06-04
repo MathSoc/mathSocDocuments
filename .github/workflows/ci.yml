@@ -21,8 +21,10 @@ jobs:
         id: changed
         shell: bash
         run: |
-          BASE_SHA="${{ github.event.pull_request.base.sha }}"
-          CHANGED=$(git diff --name-only "$BASE_SHA" "${{ github.sha }}")
+          # Fetch master so we have the ref to diff against
+          git fetch origin master --depth=1
+
+          CHANGED=$(git diff --name-only origin/master...HEAD)
 
           BUILD_BYLAWS=false
           BUILD_POLICIES=false
