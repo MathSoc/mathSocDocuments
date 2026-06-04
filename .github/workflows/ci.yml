@@ -4,9 +4,6 @@ on:
   pull_request:
     branches:
       - master
-  push:
-    branches:
-      - master
 
 jobs:
   build:
@@ -24,11 +21,7 @@ jobs:
         id: changed
         shell: bash
         run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            BASE_SHA="${{ github.event.pull_request.base.sha }}"
-          else
-            BASE_SHA="${{ github.event.before }}"
-          fi
+          BASE_SHA="${{ github.event.pull_request.base.sha }}"
 
           CHANGED=$(git diff --name-only "$BASE_SHA" "${{ github.sha }}")
 
