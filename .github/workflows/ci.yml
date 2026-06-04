@@ -22,7 +22,6 @@ jobs:
         shell: bash
         run: |
           BASE_SHA="${{ github.event.pull_request.base.sha }}"
-
           CHANGED=$(git diff --name-only "$BASE_SHA" "${{ github.sha }}")
 
           BUILD_BYLAWS=false
@@ -62,13 +61,3 @@ jobs:
       - name: Build board-procedures
         if: steps.changed.outputs.board == 'true'
         run: make -C board-procedures public
-
-      - name: Upload PDFs
-        uses: actions/upload-artifact@v4
-        with:
-          name: generated-pdfs
-          path: |
-            bylaws/dist/*.pdf
-            policies/dist/*.pdf
-            board-procedures/dist/*.pdf
-          if-no-files-found: ignore
