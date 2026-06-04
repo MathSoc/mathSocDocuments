@@ -6,83 +6,47 @@ on:
       - master
 
 concurrency:
-  group: pages
+  group: publish
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
-      pages: write
-      id-token: write
-      actions: read
+      contents: write
 
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    container:
+      image: ghcr.io/xu-cheng/texlive-full:latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download PDFs from latest CI run
-        id: download
-        uses: dawidd6/action-download-artifact@v6
-        with:
-          name: generated-pdfs
-          workflow: ci.yml
-          branch: master
-          path: artifacts/
-          if_no_artifact_found: warn
+      - name: Mark workspace safe for git
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-      - name: Check PDFs were downloaded
-        id: check
+      - name: Build all documents
         run: |
-          COUNT=$(find artifacts/ -name "*.pdf" 2>/dev/null | wc -l)
+          make -C bylaws public
+          make -C policies public
+          make -C board-procedures public
+
+      - name: Collect PDFs
+        id: collect
+        run: |
+          mkdir -p dist
+          find bylaws/dist policies/dist board-procedures/dist \
+            -name "*.pdf" -exec cp {} dist/ \;
+          COUNT=$(ls dist/*.pdf 2>/dev/null | wc -l)
           echo "pdf_count=$COUNT" >> $GITHUB_OUTPUT
-          if [ "$COUNT" -eq 0 ]; then
-            echo "No PDFs found — nothing to publish."
-          fi
 
-      - name: Prepare site
-        if: steps.check.outputs.pdf_count != '0'
-        run: |
-          mkdir -p site
-
-          # Flatten PDFs from nested dist/ dirs into site root
-          find artifacts/ -name "*.pdf" -exec cp {} site/ \;
-
-          # Generate index page
-          cat > site/index.html << 'EOF'
-          <!DOCTYPE html>
-          <html lang="en">
-          <head>
-            <meta charset="UTF-8">
-            <title>Documents</title>
-            <style>
-              body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; padding: 0 1rem; }
-              a { display: block; margin: .5rem 0; }
-            </style>
-          </head>
-          <body>
-          <h1>Documents</h1>
-          EOF
-
-          for pdf in site/*.pdf; do
-            name=$(basename "$pdf")
-            echo "<a href=\"$name\">$name</a>" >> site/index.html
-          done
-
-          echo "</body></html>" >> site/index.html
-
-      - name: Upload Pages artifact
-        if: steps.check.outputs.pdf_count != '0'
-        uses: actions/upload-pages-artifact@v3
+      - name: Create release
+        if: steps.collect.outputs.pdf_count != '0'
+        uses: softprops/action-gh-release@v2
         with:
-          path: site
-
-      - name: Deploy to GitHub Pages
-        if: steps.check.outputs.pdf_count != '0'
-        id: deployment
-        uses: actions/deploy-pages@v4
+          tag_name: latest-docs
+          name: Latest Documents
+          body: |
+            Last updated: ${{ github.sha }}
+          files: dist/*.pdf
+          make_latest: true
