@@ -1,0 +1,83 @@
+name: LaTeX CI
+
+on:
+pull_request:
+branches: [ master ]
+push:
+branches: [ master ]
+
+jobs:
+changes:
+runs-on: ubuntu-latest
+
+outputs:
+  matrix: ${{ steps.matrix.outputs.matrix }}
+
+steps:
+  - uses: actions/checkout@v4
+    with:
+      fetch-depth: 0
+
+  - id: matrix
+    shell: bash
+    run: |
+      DOCS=("bylaws" "policies" "board-procedures")
+
+      if [ "${{ github.event_name }}" = "pull_request" ]; then
+        BASE_SHA="${{ github.event.pull_request.base.sha }}"
+      else
+        BASE_SHA="${{ github.event.before }}"
+      fi
+
+      CHANGED=$(git diff --name-only "$BASE_SHA" "${{ github.sha }}")
+
+      SHARED_CHANGED=false
+      for file in logo.png mathsoc.cls mathsoc.sty title.tex; do
+        if echo "$CHANGED" | grep -q "^${file}$"; then
+          SHARED_CHANGED=true
+          break
+        fi
+      done
+
+      if [ "$SHARED_CHANGED" = true ]; then
+        MATRIX='{"directory":["bylaws","policies","board-procedures"]}'
+      else
+        DIRS=()
+
+        for dir in "${DOCS[@]}"; do
+          if echo "$CHANGED" | grep -q "^${dir}/"; then
+            DIRS+=("\"${dir}\"")
+          fi
+        done
+
+        MATRIX="{\"directory\":[$(IFS=,; echo "${DIRS[*]}")]}"
+      fi
+
+      echo "matrix=$MATRIX" >> "$GITHUB_OUTPUT"
+
+build:
+needs: changes
+
+if: ${{ fromJson(needs.changes.outputs.matrix).directory[0] != null }}
+
+runs-on: ubuntu-latest
+
+strategy:
+  fail-fast: false
+  matrix: ${{ fromJson(needs.changes.outputs.matrix) }}
+
+container:
+  image: ghcr.io/xu-cheng/texlive-full:latest
+
+steps:
+  - uses: actions/checkout@v4
+
+  - name: Build ${{ matrix.directory }}
+    run: |
+      make -C "${{ matrix.directory }}" public
+
+  - name: Upload PDF
+    uses: actions/upload-artifact@v4
+    with:
+      name: ${{ matrix.directory }}
+      path: ${{ matrix.directory }}/dist/*.pdf

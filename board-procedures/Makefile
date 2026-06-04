@@ -24,10 +24,10 @@ all: public
 	touch .refresh
 
 $(DIST_FOLDER):
-	mkdir ./dist
+	mkdir -p ./dist
 
 $(COMPILATION_FOLDER):
-	mkdir ./bin
+	mkdir -p ./bin
 
 public: $(SOURCES_P)
 	$(LATEXMK) $(LATEXMKOPT) \

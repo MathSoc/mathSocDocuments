@@ -27,10 +27,10 @@ all: public annotated
 	touch .refresh
 
 $(DIST_FOLDER):
-	mkdir ./dist
+	mkdir -p ./dist
 
 $(COMPILATION_FOLDER):
-	mkdir ./bin
+	mkdir -p ./bin
 
 watch: .refresh $(SOURCES_C) 
 	$(LATEXMK) $(LATEXMKOPT) $(CONTINUOUS) \
