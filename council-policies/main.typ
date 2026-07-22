@@ -3,36 +3,32 @@
   title: "MathSoc", 
   authors: "The Mathematics Society", 
   header-footer-enable: 1,
-  header: [Bylaws],
+  header: [Council Policies],
 )
 
 #import "../cover-page.typ": cover-page;
-#cover-page(title: "Bylaws");
+#cover-page(title: "Council Policies");
 
 // Major Headers additionally come with a heading prefix
 #show heading.where(level: 1): set heading(
-  numbering: (..nums) => [Article #numbering("1.1", ..nums). #h(1em)],
+  numbering: (..nums) => [Policy #numbering("1.1", ..nums). #h(1em)],
 )
-
-#include "b1-name.typ"
-#include "b2-object.typ"
 
 // TODO
 #set text(fill: mathSocPink)
-= Definitions
-= Parliamentary Authority
-= Membership
-= Board of Directors
-= Council
-= Officers
-= Elections and Referenda
-= General Meetings
-= Conflict of Interest
-= Collapse & Dissolution
-= Amendments
+= Finance
+= Clubs Policy
+= Elections and Referenda Policy
+= Honorary Lifetime Membership Committee
+= Mathematics Instructor of the Year Committee
+
+#set text(fill: black)
+#include "c6_eng-play.typ"
+
+#set text(fill: mathSocPink)
+= Faculty Representative Appointments
 
 #show heading.where(level: 1): set heading(
   numbering: (..nums) => [Appendix #numbering("A.A", ..nums). #h(1em)],
 )
 #counter(heading).update(0)
-= Method of Equal Proportions
