@@ -4,7 +4,7 @@
 _Effective March 7, 2019_
 
 == Purpose
-The Fall 2018 edition of “EngPlay” (the Play) graciously reminds students of the
+The Fall 2018 edition of "EngPlay" (the Play) graciously reminds students of the
 unique bond that exists between the Math Faculty and Engineering Faculty. In the
 spirit of inter-faculty unity, the Mathematics Society shall strive to provide
 generous financial support to the Play.
