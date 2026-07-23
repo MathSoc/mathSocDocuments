@@ -23,11 +23,11 @@
 = Mathematics Instructor of the Year Committee
 
 #set text(fill: black)
+#pagebreak()
 #include "c6_eng-play.typ"
+#include "c7_faculty-representative-appointments.typ"
 
 #set text(fill: mathSocPink)
-= Faculty Representative Appointments
-
 #show heading.where(level: 1): set heading(
   numbering: (..nums) => [Appendix #numbering("A.A", ..nums). #h(1em)],
 )
