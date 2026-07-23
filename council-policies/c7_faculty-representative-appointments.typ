@@ -1,6 +1,5 @@
 #counter(heading).update(6)
 = Faculty Representative Appointments
-_Effective September 12, 2024; replaces Jan 31, 2023_
 
 Often, faculty or departments of the University will ask MathSoc for
 undergraduate student representatives to appoint to various committees and 

@@ -23,7 +23,7 @@
 
 = Vice-President, Spaces
 == Lounge and Hallway Bookings
-== MathSOc Bulletin Board Policy
+== MathSoc Bulletin Board Policy
 
 = Vice-President, Events
 == Math Graduation Committee

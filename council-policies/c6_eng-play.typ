@@ -1,6 +1,5 @@
 #counter(heading).update(5)
 = EngPlay
-_Effective March 7, 2019_
 
 == Purpose
 The Fall 2018 edition of "EngPlay" (the Play) graciously reminds students of the
