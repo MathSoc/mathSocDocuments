@@ -1,4 +1,10 @@
-#let project(title: "", authors: "", header-footer-enable: 1, header: (), body) = {
+#let project(
+  title: "", 
+  authors: "", 
+  header-footer-enable: 1, 
+  header: (), 
+  body
+) = {
   set document(
     author: authors,
     title: title,
@@ -36,6 +42,13 @@
     }
   )
 
+  // Headings are numbered and the title is spaced
+  show heading: set block(below: 1em)
+  set heading(
+    numbering: (..nums) => [#numbering("1.1", ..nums). #h(1em) ],
+  )
+
+  // Text settings
   set text(
     font: "IBM Plex Sans",
     size: 10pt,
@@ -44,3 +57,4 @@
   body
 } 
 
+#let mathSocPink = rgb(198, 0, 120)
