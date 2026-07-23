@@ -42,7 +42,7 @@
     }
   )
 
-  // Headers are numbered and the title is spaced
+  // Headings are numbered and the title is spaced
   show heading: set block(below: 1em)
   set heading(
     numbering: (..nums) => [#numbering("1.1", ..nums). #h(1em) ],
