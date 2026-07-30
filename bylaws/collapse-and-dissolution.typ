@@ -1,5 +1,5 @@
 #counter(heading).update(11)
-= Collapse and Dissolution
+= Collapse and Dissolution <bylaw>
 The Society shall be deemed to be collapsed if, for a period of at least seven
 months, no quorate meeting of Council, the Board of Directors, or a general
 meeting is held.

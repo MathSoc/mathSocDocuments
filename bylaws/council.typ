@@ -1,11 +1,12 @@
 #counter(heading).update(6)
-== Purpose
+= Council <bylaw>
+== Purpose <bylaw>
 The purpose of Council is to represent the members of the Society through the
 general oversight of the Mathematics Society's Executive Officers, to determine
 member priorities with respect to the expenditure of dues, to set advocacy
 priorities, and to establish long-term goals and vision.
 
-== Composition
+== Composition <bylaw>
 The Society Council's is comprised of up to thirty-six voting members:
 + The Executive Officers, as defined in this document; and
 + Up to thirty Representatives, allocated as described below.
@@ -26,7 +27,7 @@ Additionally, there are non-voting members of Council:
 If a person qualifies as both a voting and non-voting member of Council, then
 they are a voting member.
 
-== Representative Allocation
+== Representative Allocation <bylaw>
 Each Representative on Council shall represent a single constituency from the
 following, determined by reference to the Faculty's undergraduate calendar. For
 the purposes of determining if a student is in a program, minors and options are
@@ -100,7 +101,7 @@ that term.
 All Councillors will be elected in accordance with the procedure outlined
 elsewhere in this document with the exception of the constituencies below.
 
-=== Software Engineering Representatives
+=== Software Engineering Representatives <bylaw>
 At the start of each term, the students in each on-stream Software Engineering
 class shall elect members of their class to serve as Software Engineering
 Representatives for the term, in accordance with the usual process of election
@@ -113,18 +114,18 @@ In the event that there are more on-stream Software Engineering classes than
 Software Engineering seats on Council, the lower-year classes shall be given
 seats first.
 
-=== First Year Representatives
+=== First Year Representatives <bylaw>
 First Year Representatives shall be elected before October 15th of the same
 year.
 
 First Year Representatives shall be elected in accordance with the election
 procedures of the Society in all other aspects.
 
-=== At Large Representatives
+=== At Large Representatives <bylaw>
 At Large Representatives shall be elected during the by-election if seats for
 this constituency are available.
 
-== Terms of Office
+== Terms of Office <bylaw>
 Councillors other than First Year Representatives shall be elected for a term in
 office that ends in concert with the school term as defined elsewhere in this
 document.
@@ -135,7 +136,7 @@ following their election.
 Councillors or Councillors-elect can resign by written submission to the rest of
 Council.
 
-== Eligibility Requirements
+== Eligibility Requirements <bylaw>
 In order to run for or serve as a Representative, a member must be in the
 constituency of their seat or show proof that they intend to register in their
 constituency in their term of office.
@@ -150,7 +151,7 @@ one Representative seat in the same term, and a member in a Representative seat
 in a given term may run in a by-election for an Executive seat in that same
 term.
 
-== Duties & Powers
+== Duties & Powers <bylaw>
 Council is responsible to uphold the purposes of the Society and to ensure that
 the Society is not abused. It is responsible to hold the Executive and any other
 persons involved in Society affairs to account, and the Representatives are
@@ -180,12 +181,12 @@ Council is a fully-constituted assembly in its own right, and does not report to
 general meetings, though it is accountable to them and to the members of the
 Society at large.
 
-=== Limitations on Power
+=== Limitations on Power <bylaw>
 Council may not make any decision contrary to this document or a resolution
 passed at a general meeting or by a referendum, unless the limiting resolution
 would present a strong risk of imminent dissolution.
 
-== Duties of Councillors
+== Duties of Councillors <bylaw>
 Councillors must, in addition to what is otherwise set out in the by-laws, the
 policies, and the procedures of the Society:
 + Maintain at least one public office hour per week and shall inform their
@@ -204,7 +205,7 @@ delinquent for three or more meetings in a given term, then that Councillor may
 be removed from that or any other seat on Council for the given term and
 following two terms by majority vote with notice.
 
-== Convocation
+== Convocation <bylaw>
 Meetings of Council may be called by any of the following;
 + The President;
 + The Speaker of Council;
@@ -216,7 +217,7 @@ Meetings of Council may be called by any of the following;
 During the period of classes in each term, Council shall meet no less than once
 every three weeks.
 
-== Notice
+== Notice <bylaw>
 Notice of the meeting time and location must be provided at least five (5)
 business days in advance of any meeting to every voting member of Council unless
 that member explicitly waives their right to notice before the start of the
@@ -239,14 +240,14 @@ forum of Council; if this is done, then any notice sent to that forum is
 considered to have been sent to every voting member of Council regardless of
 whether or not it was received by that member.
 
-== Quorum
+== Quorum <bylaw>
 Two-fifths of all voting members of Council shall constitute a quorum.
 
-== Sessions
+== Sessions <bylaw>
 For greater certainty, each meeting as called in accordance with this document,
 plus its adjournments, constitute a single session of Council.
 
-== Speaker & Secretary of Council
+== Speaker & Secretary of Council <bylaw>
 The Speaker of Council and the Secretary of Council shall be appointed by
 Council.
 
@@ -262,7 +263,7 @@ The term of a Speaker or Secretary of Council shall extend from appointment to
 the end of the current academic term. For greater certainty, the Speaker and/or
 Secretary of Council may resign or be replaced by Council at an earlier time.
 
-=== Duties of the Speaker
+=== Duties of the Speaker <bylaw>
 The Speaker has the following duties:
 + Serve as the presiding officer of Council;
 + Work with the Chair of the Board of Directors to interpret this and any other
@@ -276,7 +277,7 @@ The Speaker has the following duties:
   meetings, and make a best effort to reschedule any Council meeting should its
   scheduled time overlap with a WUSA general meeting.
 
-=== Duties of the Secretary
+=== Duties of the Secretary <bylaw>
 The Secretary has the following duties:
 + Serve as the secretary of Council;
 + Record attendance of Council meetings, including when a member is more than
@@ -286,7 +287,7 @@ The Secretary has the following duties:
 + Report to Council when a Councillor is failing to meet the requirements of
   office.
 
-== Remuneration of Councillors
+== Remuneration of Councillors <bylaw>
 Councillors shall not receive monetary remuneration, excluding discounts, for
 serving as such, though they may receive such remuneration for serving as
 officers or employees or in other capacities.

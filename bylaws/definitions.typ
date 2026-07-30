@@ -1,5 +1,5 @@
 #counter(heading).update(2)
-= Definitions
+= Definitions <bylaw>
 In this and any other document of the Society, the following definitions shall
 hold unless otherwise specified:
 / University: The University of Waterloo
@@ -40,12 +40,12 @@ hold unless otherwise specified:
   referendum, or any other body to which the power to make that decision was
   duly and legally delegated, or a document duly enacted by one of the above
 
-== Non-Voting Member
+== Non-Voting Member <bylaw>
 With regards to any assembly within the Society, a non-voting member has all
 rights accorded to regular members except for the right to make motions and the
 right to vote.
 
-== Appointment of Designates
+== Appointment of Designates <bylaw>
 Where someone is entitled to appoint a designate to serve a function under this
 document, such an appointment shall be made by written notice to the President
 or to the Speaker of Council, and notice of that appointment shall be given to

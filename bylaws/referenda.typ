@@ -1,6 +1,6 @@
 #counter(heading).update(10)
-= Referenda
-== Initiation
+= Referenda <bylaw>
+== Initiation <bylaw>
 From time to time, the Society may consult its voting members by the means of a
 referendum.
 
@@ -14,7 +14,7 @@ A referendum may be called by any of the following:
 The decision or petition requisitioning a referendum must include the full and
 exact text of the question.
 
-== Procedure
+== Procedure <bylaw>
 Conspicuous and copious notice of at least seventy-two hours shall be given to
 all voting members of the Society of the referendum, including those not
 currently studying full-time.
@@ -22,7 +22,7 @@ currently studying full-time.
 The remainder of the referendum procedure shall be defined by decision of the
 Society.
 
-== Resolution
+== Resolution <bylaw>
 The results of a referendum are fully binding on the Society until legally
 overturned. For a period of eight years after a referendum, the referendum
 cannot be overturned except by another referendum. After that, any decision of
@@ -32,7 +32,7 @@ The members of the Society shall be informed of the results of a referendum as
 soon as possible and in a manner similar to the way in which the notice was
 given.
 
-== Reconsideration
+== Reconsideration <bylaw>
 A referendum on substantially the same question as one held in the past four
 years shall be deemed to be a reconsideration of the earlier referendum.
 Notwithstanding the above, a reconsideration can be called on and only on the
@@ -44,7 +44,7 @@ reconsider without approval of Council by a two-thirds majority vote. No
 reconsideration may be called within eighteen months of a prior reconsideration
 of the same referendum.
 
-== Recall
+== Recall <bylaw>
 A referendum may be called to remove a specific voting member and/or
 member-elect from Council or the Board of Directors. Notwithstanding the above,
 such a referendum can be called on and only on a petition in writing of at least

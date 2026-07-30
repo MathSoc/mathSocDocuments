@@ -1,5 +1,5 @@
 #counter(heading).update(1)
-= Object
+= Object <bylaw>
 The object of the Society shall be to:
 - Serve, represent, and promote undergraduate students in the Faculty of
   Mathematics at the University of Waterloo by providing services to students;

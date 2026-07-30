@@ -1,6 +1,6 @@
 #counter(heading).update(4)
-= Membership
-== Membership Fee
+= Membership <bylaw>
+== Membership Fee <bylaw>
 The Society shall levy a membership fee to either be collected by the University
 as a portion of student fees, or paid directly to the Society. Some members are
 exempt from having to pay the membership fee, as defined elsewhere in this
@@ -26,7 +26,7 @@ rights of persons who do not pay the membership fee, exempting their status as
 members, and to form procedures governing fee opt-outs or refunds, where
 applicable.
 
-== Voting Membership
+== Voting Membership <bylaw>
 The voting members of the society are the students who meet one or more of the
 following criteria:
 1. A full-time or part-time math student in the current term who has paid the
@@ -37,7 +37,7 @@ following criteria:
   part-time math student in the next term and is not currently engaged in
   academic study.
 
-== Social Membership
+== Social Membership <bylaw>
 The social members of the society are those students (undergraduate and
 graduate), staff, faculty, or alumni at the University who have paid the Society
 membership fee, as well as all full-time employees of the Society and all
@@ -52,7 +52,7 @@ member in the previous term, and at least one of the following conditions hold:
 
 All MathSoc voting members are also social members.
 
-== Honorary Lifetime Members
+== Honorary Lifetime Members <bylaw>
 The Honorary Lifetime Members of the Society are those persons who have made
 exceptionally significant contributions to the Society or towards its goals.
 Honorary Lifetime Memberships may be conferred only by a three-quarters majority
@@ -63,7 +63,7 @@ cannot be revoked. Honorary Lifetime Members cannot have obligations imposed on
 them due to their status; if they accept a position within the Society, however,
 they are still obligated to fulfill the duties of that position.
 
-== Rights of Voting Members
+== Rights of Voting Members <bylaw>
 Voting members have the exclusive right to participate in Society
 decision-making:
 1. Vote at general meetings of the Society;
@@ -75,7 +75,7 @@ decision-making:
 5. Inspect the financial records of the Society and, at their own expense,
   request a professional audit.
 
-== Rights of Social Members
+== Rights of Social Members <bylaw>
 Social members have, except where described otherwise in this document, the
 right to participate fully in activities in the Society, although this does not
 mean that the Society cannot charge a fee for an event or that activities cannot

@@ -1,5 +1,5 @@
 #counter(heading).update(12)
-= Amendments
+= Amendments <bylaw>
 Amendments to this document may be made by a referendum or by either:
 + both a two-thirds majority vote of the Board of Directors and a two-thirds
   majority vote of Council, or
@@ -16,7 +16,7 @@ Council and the Board of Directors of similar substance has any effect until
 confirmed at a general meeting. An amendment passed at a general meeting
 implicitly confirms similar amendments by Council and the Board of Directors.
 
-== Contracts
+== Contracts <bylaw>
 For the Society to enter into or assent to an amendment to a contract that binds
 it for a duration of more than one term, it must be explicitly approved by the
 Board of Directors.

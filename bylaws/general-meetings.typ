@@ -14,8 +14,7 @@ start of the month in which a meeting is to be held, the Board of Directors has
 not made public the date of the meeting, then any member may call the meeting,
 the above notwithstanding.
 
-== Notice & Agenda
-
+== Notice & Agenda <bylaw>
 Notice shall be delivered to the voting members of the society via their
 official university email no less than 10 business days before the meeting.
 

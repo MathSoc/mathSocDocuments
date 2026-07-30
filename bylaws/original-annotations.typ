@@ -1,6 +1,5 @@
 #counter(heading).update(1)
-= Original Annotations on the MathSoc's Bylaws
-
+= Original Annotations on the MathSoc's Bylaws <bylaw>
 #set heading(
   numbering: none,
 )

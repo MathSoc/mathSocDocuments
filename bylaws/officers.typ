@@ -1,6 +1,5 @@
 #counter(heading).update(7)
-= Officers
-
+= Officers <bylaw>
 The officers of the Society shall be:
 + the President;
 + the Vice-President, Finance;
@@ -22,7 +21,7 @@ No Officer shall approve funding to any organization in which they hold an
 executive or similar position, unless such funding has explicitly been approved
 by a decision of the Society.
 
-== Executive Officers
+== Executive Officers <bylaw>
 The Executive Officers of the Society shall be:
 + the President;
 + the Vice-President, Finance;
@@ -34,7 +33,7 @@ The Executive Officers of the Society shall be:
 An Executive Officer may not be a chairperson or executive member of a club or
 other organization receiving or petitioning to receive funds from the Society.
 
-=== Eligibility Requirements
+=== Eligibility Requirements <bylaw>
 In order to serve as an Executive, a member must:
 + be eligible to sit on the Board of Directors;
 + be a math student;
@@ -44,7 +43,7 @@ In order to serve as an Executive, a member must:
 All of the Executive Officers are expected to attend regular meetings with
 representatives of the Dean's office.
 
-=== Incapacitation
+=== Incapacitation <bylaw>
 In the event that an Executive Officer becomes unable to fulfill their duties,
 then three voting members of Council or the Board of Directors may, with the
 written approval of the Dean or their designate, declare that Executive Officer
@@ -85,7 +84,7 @@ Officer, they resume their duties and powers. If their interim replacement was
 another Executive Officer, then that Executive Officer resumes their duties at
 the same time with no requirement of notice on their part.
 
-=== Remuneration of Executives
+=== Remuneration of Executives <bylaw>
 As a form of compensation, each Executive Officer may receive an honorarium for
 serving in a given academic term, provided that they have been in the role for
 the majority of the term, are still in their role on the last day of the term.
@@ -99,13 +98,13 @@ two-thirds vote, provided that the meeting occurs before the payment is awarded.
 Debate on any such resolution will be held in confidential session, without the
 presence of the Executive Officer(s) in question.
 
-== Executive Board
+== Executive Board <bylaw>
 
-=== Composition
+=== Composition <bylaw>
 The Executive Board of the Society shall be composed of the Executive Officers
 with the Business Manager serving as a resource member.
 
-=== Duties and Powers
+=== Duties and Powers <bylaw>
 Each member of the Executive Board shall maintain at least three office hours
 per week or be regularly available to students.
 
@@ -123,7 +122,7 @@ decision of the Society.
 The Executive Board is expected to send out regular communications to the
 membership of the Society.
 
-== President
+== President <bylaw>
 The President is the Chief Executive Officer of the Society, and shall:
 + Represent the Society at official functions and public occasions;
 + Work with external organizations on behalf of the Society;
@@ -139,21 +138,21 @@ For greater certainty, the President need not seek election to external bodies
 in order to satisfy the requirement that they represent the Society and its
 members.
 
-== Vice-President, Finance
+== Vice-President, Finance <bylaw>
 The Vice-President, Finance is responsible for the financial affairs of the
 Society and shall:
 + Prepare a budget, an opening financial report, and a closing financial report
   for the Society for each term and present them to Council; and
 + Present up-to-date financial reports to termly general meetings.
 
-== Vice-President, Operations
+== Vice-President, Operations <bylaw>
 The Vice-President, Operations is responsible for the day-to-day operations of
 the Society and shall:
 + Oversee the services operated by the Society;
 + Oversee the Society Office; and,
 + Allocate and manage the use of any space allocated to the Society.
 
-== Vice-President, Internal
+== Vice-President, Internal <bylaw>
 The Vice-President, Internal is responsible for overseeing Society events and
 shall:
 + Serve as the final approver for all Society events, ensuring that all Society
@@ -170,7 +169,7 @@ shall:
   their efforts; and,
 + Ensure that the spirit of Math does not leave the Society.
 
-== Vice-President, Academic
+== Vice-President, Academic <bylaw>
 The Vice-President, Academic is responsible for academic operations of the
 Society and shall:
 + Represent the Society and its members to the Faculty, to the University, and
@@ -186,7 +185,7 @@ For greater certainty, the Vice-President, Academic need not seek election to
 external bodies in order to satisfy the requirement that they represent the
 Society and its members.
 
-== Vice-President, Communications
+== Vice-President, Communications <bylaw>
 The Vice-President, Communications is responsible for the Society's
 communications and shall:
 + Collaborate with the President for Society's official announcements and
@@ -196,7 +195,7 @@ communications and shall:
 + Collaborate with the Vice-President, Operations on the information provided on
   the Society's website.
 
-== Business Manager
+== Business Manager <bylaw>
 The Business Manager is responsible for the day-to-day operations of the
 Society, and shall:
 + Manage the services operated by the Society;
@@ -215,7 +214,7 @@ Society, and shall:
 + Assist in planning any term-scale initiatives; and,
 + Provide input and guidance during transition periods.
 
-== Chair
+== Chair <bylaw>
 The Chair of the Society must be a current or Past Director.
 
 The Chair has the following duties:
@@ -233,7 +232,7 @@ The Chair has the following duties:
 In the event that there is no Chair, the President shall assume the duties and
 responsibilities of the Chair of the Society.
 
-== Secretary
+== Secretary <bylaw>
 The Secretary has the following duties:
 + Ensure a secretary is present at all meetings of Council, the Board of
   Directors, and general meetings;

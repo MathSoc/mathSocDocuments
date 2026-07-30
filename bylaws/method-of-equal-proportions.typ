@@ -1,5 +1,5 @@
 #counter(heading).update(0)
-= Method of Equal Proportions
+= Method of Equal Proportions <bylaw>
 To allocate the Representative seats on Council, first allocate to each
 constituency except the At Large Constituency, a single seat. Then, for each
 constituency, its priority is $P = sqrt(c/(n(n+1)))$, where $n$ is the number of

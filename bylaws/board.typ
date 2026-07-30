@@ -1,13 +1,13 @@
 #counter(heading).update(5)
-= Board of Directors
+= Board of Directors <bylaw>
 
-== Purpose
+== Purpose <bylaw>
 The Board of Directors shall be responsible for the corporate duties of the
 organization, including the management of the legal, financial, and human
 resource concerns of the organization as well as setting and reviewing
 high-level strategic plans.
 
-== Composition
+== Composition <bylaw>
 The Board of Directors is comprised of up to eighteen (18) voting members:
 + The six (6) executive officers, as defined in this document;
 + Two (2) representatives from Council, appointed by Council;
@@ -36,7 +36,7 @@ replacement may be duly elected. In the event that one or more community
 representative seats become vacant, the Board of Directors will advertise and
 appoint a new member at the earliest convenience.
 
-== Terms of Office
+== Terms of Office <bylaw>
 At-large members of the Board of Directors shall hold office for one (1) year,
 commencing at the beginning of the academic term following the one in which they
 were elected. For greater clarity, the at-large director appointed in the Winter
@@ -60,7 +60,7 @@ member will continue to serve until a replacement is found.
 Directors or Directors-elect can resign by written submission to the rest of the
 Board of Directors.
 
-== Duties & Powers
+== Duties & Powers <bylaw>
 The Board of Directors shall manage and have full power over the Societies
 affairs as required to ensure the long-term survival of the Society. The Board
 of Directors shall make or cause to be made for the Society, in its name, any
@@ -89,7 +89,7 @@ Each Director shall have the right to view, upon request, any internal document
 or communication relating to the affairs of the Society, subject to any
 procedures the Board of Directors may establish in facilitating this process.
 
-=== Limitations on Power
+=== Limitations on Power <bylaw>
 The Board of Directors may not make any decision contrary to this document or a
 resolution passed at a general meeting or by a referendum, unless the limiting
 resolution would present a strong risk of imminent dissolution.
@@ -98,14 +98,14 @@ A Director may not sign a cheque addressed to an organization of which they are
 a member unless the specific expenditure is explicitly authorized by the Board
 of Directors.
 
-== Convocation
+== Convocation <bylaw>
 Meetings of the Board of Directors may be called by any of the following;
 + The Chair of the Board of Directors;
 + The President;
 + Any three voting members of the Board of Directors, upon petition in writing;
 + The Dean or their designate.
 
-== Notice
+== Notice <bylaw>
 Notice of the meeting and location must be provided at least five (5) business
 days in advance of any meeting to every member of the Board of Directors unless
 that member explicitly waives their right to notice before the start of the
@@ -122,7 +122,7 @@ official notice forum of the Board of Directors; if this is done, then any
 notice sent to that forum is considered to have been sent to every member of the
 Board of Directors, regardless of whether or not it was received by that member.
 
-=== Special Meetings
+=== Special Meetings <bylaw>
 A special or emergency meeting of the Board may be called for any sufficiently
 urgent purpose, by:
 + The Chair of the Board of Directors;
@@ -137,7 +137,7 @@ including the exact text of any resolution to be voted on.
 No special meeting will be held to conduct business that may be postponed until
 a regular meeting.
 
-== Eligibility Requirements
+== Eligibility Requirements <bylaw>
 In order to serve as an at-large Director, the applicant must be a current
 voting member of the Society.
 
@@ -148,15 +148,15 @@ majority vote of the Board of Directors.
 No member shall occupy more than one voting seat on the Board of Directors in
 the same term simultaneously.
 
-== Quorum
+== Quorum <bylaw>
 A majority, that is, more than half, of all voting members of the Board of
 Directors shall constitute a quorum.
 
-== Sessions
+== Sessions <bylaw>
 For greater certainty, each meeting as called in accordance with this document,
 plus its adjournments, constitute a single session of the Board of Directors.
 
-== Duties of Directors
+== Duties of Directors <bylaw>
 Directors must, in addition to what is otherwise set out in the by-laws, the
 policies, and the procedures of the Society:
 + Familiarize themselves with the by-laws, policies, procedures, and any active
@@ -170,7 +170,7 @@ delinquent for two or more meetings in a given term, then that Director may be
 removed from that or any other at-large seat for the given term and following
 two terms by majority vote with notice.
 
-== Remuneration of Directors
+== Remuneration of Directors <bylaw>
 Directors shall not receive monetary remuneration, excluding discounts, for
 serving as such, though they may receive such remuneration for serving as
 officers or employees or in other capacities.
