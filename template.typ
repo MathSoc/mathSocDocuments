@@ -1,9 +1,11 @@
+#import "formatting.typ": mathSocPink
+
 #let project(
-  title: "", 
-  authors: "", 
-  header-footer-enable: 1, 
-  header: (), 
-  body
+  title: "",
+  authors: "",
+  header-footer-enable: 1,
+  header: (),
+  body,
 ) = {
   set document(
     author: authors,
@@ -14,7 +16,7 @@
   set page(
     paper: "us-letter",
     margin: 1in,
-    
+
     // Header enabled only after header-footer-enable pages
     header: context {
       if counter(page).get().at(0) > header-footer-enable [
@@ -39,11 +41,11 @@
         )
         #h(1fr)
       ]
-    }
+    },
   )
 
   // Headings are numbered and the title is spaced
-  show heading: set block(below: 1em)
+  show heading: set block(below: 1em, above: 2em)
   set heading(
     numbering: (..nums) => [#numbering("1.1", ..nums). #h(1em) ],
   )
@@ -54,7 +56,23 @@
     size: 10pt,
   )
 
-  body
-} 
+  // List and Numbered List settings
+  set list(
+    spacing: 1em,
+    indent: 1em
+  )
 
-#let mathSocPink = rgb(198, 0, 120)
+  set enum(
+    spacing: 1em,
+    indent: 1em
+  )
+
+  // Definitions List settings
+  set terms(
+    separator: [#linebreak()],
+    hanging-indent: 3em,
+    spacing: 1.5em
+  )
+
+  body
+}

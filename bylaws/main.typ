@@ -1,4 +1,5 @@
 #import "../template.typ": *;
+#import "../formatting.typ": *;
 #show: project.with(
   title: "MathSoc", 
   authors: "The Mathematics Society", 
@@ -14,25 +15,21 @@
   numbering: (..nums) => [Article #numbering("1.1", ..nums). #h(1em)],
 )
 
-#include "b1-name.typ"
-#include "b2-object.typ"
-
-// TODO
-#set text(fill: mathSocPink)
-= Definitions
-= Parliamentary Authority
-= Membership
-= Board of Directors
-= Council
-= Officers
-= Elections and Referenda
-= General Meetings
-= Conflict of Interest
-= Collapse & Dissolution
-= Amendments
+#include "name.typ"
+#include "object.typ"
+#include "definitions.typ"
+#include "parliamentary-authority.typ"
+#include "membership.typ"
+#include "board.typ"
+#include "council.typ"
+#include "officers.typ"
+#include "elections.typ"
+#include "general-meetings.typ"
+#include "referenda.typ"
+#include "collapse-and-dissolution.typ"
 
 #show heading.where(level: 1): set heading(
   numbering: (..nums) => [Appendix #numbering("A.A", ..nums). #h(1em)],
 )
-#counter(heading).update(0)
-= Method of Equal Proportions
+#include "method-of-equal-proportions.typ"
+#include "original-annotations.typ"

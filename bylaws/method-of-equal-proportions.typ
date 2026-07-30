@@ -1,0 +1,23 @@
+#counter(heading).update(0)
+= Method of Equal Proportions
+To allocate the Representative seats on Council, first allocate to each
+constituency except the At Large Constituency, a single seat. Then, for each
+constituency, its priority is $P = sqrt(c/(n(n+1)))$, where $n$ is the number of
+seats already allocated to that constituency, and $c$ is the number of
+constituents in that constituency.
+
+Once the priorities have been calculated, the constituency with the highest
+priority is allocated an additional seat, and its divisor and priority are
+recalculated. This process is continued until all 30 seats have been allocated.
+(If calculating the "adjusted allocation" as described in Bylaw 7.3, this
+process is continued until all seats not held for the First Year constituency
+have been allocated.)
+
+If multiple constituencies are tied for the highest priority, then they are all
+allocated a seat simultaneously, unless that would bring the total number of
+allocated seats above the maximum, in which case the tie will be broken in favor
+of the constituents in the constituencies. If there is a further tie, then
+previous terms' data shall be consulted in reverse chronological order until a
+term is found in which there is no tie. In the exceptionally unlikely event that
+the tie remains unbroken, it shall be broken in favor of the first constituency
+listed in this document.
