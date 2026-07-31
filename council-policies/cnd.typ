@@ -1,3 +1,3 @@
-\newRescinded{The Coffee \& Donut Shop}{rescinded July 17, 2018}
-%\section{The Coffee \& Donut Shop}
-%rescinded July 17, 2018
+#counter(heading).update((1, 1))
+== The Coffee & Donut Shop <policy>
+Rescinded July 17, 2018.

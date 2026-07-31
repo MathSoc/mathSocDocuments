@@ -12,13 +12,36 @@
   target-label: <policy>,
 )
 
-// Major Headers additionally come with a heading prefix
 #show heading.where(level: 1): set heading(
-  numbering: (..nums) => [Article #numbering("1.1", ..nums). #h(1em) ],
+  numbering: none
+)
+#include "foreword.typ"
+#pagebreak()
+
+#show heading.where(level: 1): set heading(
+  numbering: (..nums) => [Policy #numbering("1.1", ..nums). #h(1em) ],
+)
+#include "elections.typ"
+#pagebreak()
+#include "clubs.typ"
+#pagebreak()
+
+#include "engplay.typ"
+#pagebreak()
+
+#include "faculty-reps.typ"
+#pagebreak()
+
+#show heading: set heading(
+  numbering: (..nums) => [#numbering("A.1", ..nums). #h(1em)],
+)
+#show heading.where(level: 1): set heading(
+  numbering: (..nums) => [Appendix #numbering("A.1", ..nums). #h(1em)],
 )
 
-
-
-#show heading.where(level: 1): set heading(
-  numbering: (..nums) => [Appendix #numbering("A.A", ..nums). #h(1em)],
-)
+#counter(heading).update(0)
+= Rescinded Policies <policy>
+#include "cnd.typ"
+#include "bookings.typ"
+#include "external-funding.typ"
+#include "keys.typ"

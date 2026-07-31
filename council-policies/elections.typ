@@ -1,408 +1,715 @@
-\section{Election Procedure}
-\newcommand{\votewebsite}{\href{https://vote.wusa.ca}{vote.wusa.ca}}
-\subsection{Elections Committee}
-\subsubsection{Composition and Appointment}
-The Elections Committee (EC) shall be a standing committee of Council.
-The Committee shall be comprised of five members.
-The chair of the Committee is referred to as the Chief Returning Officer (CRO).
-Members shall serve on the Committee for the term in which they are appointed.
+#let voteWebsite = link("https://vote.wusa.ca", [ vote.wusa.ca ])
 
-At the start of each academic term, Council shall appoint the Elections Committee at the first regular Council meeting.
+#counter(heading).update(0)
+= Election Procedure <policy>
 
-Prior to the appointment of the Committee during a term, if urgency demands it, the President may exercise the powers of the Committee in a way consistent with its duties.
+== Elections Committee <policy>
+=== Composition and Appointment
+The Elections Committee (EC) shall be a standing committee of Council. The
+Committee shall be comprised of five members. The chair of the Committee is
+referred to as the Chief Returning Officer (CRO). Members shall serve on the
+Committee for the term in which they are appointed.
 
-\subsubsection{Duties}
-The Elections Committee is responsible for running the Society's Council elections.
-This includes, but is not limited to:
-\begin{itemize}
-	\item Setting the dates of the various phases of elections
-	\item Advertising elections to the members of the Society
-	\item Verifying the validity of each nomination
-	\item Arranging the voting system of the election
-	\item Making judgments regarding any disputes over or violations of the election procedure, and imposing penalties for violations
-	\item Providing a report to Council at the conclusion of each election
-	\item Recommending amendments to the elections procedure
-\end{itemize}
+At the start of each academic term, Council shall appoint the Elections
+Committee at the first regular Council meeting.
+
+Prior to the appointment of the Committee during a term, if urgency demands it,
+the President may exercise the powers of the Committee in a way consistent with
+its duties.
+
+=== Duties
+The Elections Committee is responsible for running the Society's Council
+elections. This includes, but is not limited to:
+- Setting the dates of the various phases of elections
+- Advertising elections to the members of the Society
+- Verifying the validity of each nomination
+- Arranging the voting system of the election
+- Making judgments regarding any disputes over or violations of the election
+  procedure, and imposing penalties for violations
+- Providing a report to Council at the conclusion of each election
+- Recommending amendments to the elections procedure
 
 The Elections Committee shall make its decisions fairly and impartially.
-\subsubsection{Power}
-The Elections Committee has the power necessary to conduct the elections within the bounds of the procedure as approved by Council, except that its power to authorize expenditures is limited to \$750 for each general election, \$150 for each by-election, and \$150 for the First-Year elections at the start of each Fall term.
 
-The Elections Committee has the power to hold elections and by-elections when required absent any particular approval from Council.
-The committee has the power to hold by-elections in consultation with the Executive Board or the Speaker of Council.
+=== Power
+The Elections Committee has the power necessary to conduct the elections within
+the bounds of the procedure as approved by Council, except that its power to
+authorize expenditures is limited to \$750 for each general election, \$150 for
+each by-election, and \$150 for the First-Year elections at the start of each
+Fall term.
 
-\subsubsection{Conflicts of Interest}
-If a member of the Elections Committee is standing as, or intends to stand as, candidate for election to Council, then that member shall be excluded from proceedings of the committee that is specifically related to them or to the election for any of the seats for which they are running.
-In particular, that member shall not have a vote, or a right to speak or to be present when such matters are discussed.
-Additionally, with regards specifically to the election to those seats, the member shall exercise no powers and have no duties as a member of the Committee.
-For greater clarity, for the purposes of an election to a seat that a member of the Elections Committee is running for, the member shall not be considered an EC member and all clauses in this policy pertaining specifically to EC members shall not apply to them.\footnote{So EC members can endorse nominations, promote candidates, and so on, only for the elections in which they are a candidate, and can and will only do so in their capacity as a person or a candidate, and not as an EC member.}
-If an EC member at any point withdraws their candidacy, they shall not regain their powers or duties for the election to said seat.
+The Elections Committee has the power to hold elections and by-elections when
+required absent any particular approval from Council. The committee has the
+power to hold by-elections in consultation with the Executive Board or the
+Speaker of Council.
 
-If more than two members of the Committee are standing as, or intend to stand as, candidate for the same seat, this matter shall be reported to Council as soon as possible by the Committee or by any member thereof.
+=== Conflicts of Interest
+If a member of the Elections Committee is standing as, or intends to stand as,
+candidate for election to Council, then that member shall be excluded from
+proceedings of the committee that is specifically related to them or to the
+election for any of the seats for which they are running. In particular, that
+member shall not have a vote, or a right to speak or to be present when such
+matters are discussed. Additionally, with regards specifically to the election
+to those seats, the member shall exercise no powers and have no duties as a
+member of the Committee. For greater clarity, for the purposes of an election to
+a seat that a member of the Elections Committee is running for, the member shall
+not be considered an EC member and all clauses in this policy pertaining
+specifically to EC members shall not apply to them. #footnote[So EC members can
+  endorse nominations, promote candidates, and so on, only for the elections in
+  which they are a candidate, and can and will only do so in their capacity as a
+  person or a candidate, and not as an EC member.
+] If an EC member at any point withdraws their candidacy, they shall not regain
+their powers or duties for the election to said seat.
 
-\subsection{Election Schedule}
+If more than two members of the Committee are standing as, or intend to stand
+as, candidate for the same seat, this matter shall be reported to Council as
+soon as possible by the Committee or by any member thereof.
+
+== Election Schedule <policy>
 An election shall consist of three phases:
+- The nomination period, which shall contain at least 5 business days;
+- An all-candidates meeting, which shall occur between one and two business days
+  after the end of the nomination period, at which all qualifying candidates or
+  a proxy of whom must be present unless excused by the Elections Committee;
+- The campaign period, which shall contain 3 to 7 business days, normally
+  starting the business day immediately after the all-candidates meeting but
+  starting up to three business days after the all-candidates meeting in special
+  circumstances; and
+- The voting period, which shall contain 2 to 5 business days, and begin on the
+  business day immediately following the campaign period.
 
-\begin{itemize}
-	\item The nomination period, which shall contain at least 5 business days;
-	\item An all-candidates meeting, which shall occur between one and two business days after the end of the nomination period, at which all qualifying candidates or a proxy of whom must be present unless excused by the Elections Committee;
-	\item The campaign period, which shall contain 3 to 7 business days, normally starting the business day immediately after the all-candidates meeting but starting up to three business days after the all-candidates meeting in special circumstances; and
-	\item The voting period, which shall contain 2 to 5 business days, and begin on the business day immediately following the campaign period.
-\end{itemize}
-For further clarity, any number of weekends or other holidays may occur during any phase of the election, and such days shall not count towards the minimum or maximum length of each phase.
-So that any issues can be quickly addressed, when feasible the Elections Committee should aim to set the schedule such that no weekends or other holidays occurring during the voting period.
+For further clarity, any number of weekends or other holidays may occur during
+any phase of the election, and such days shall not count towards the minimum or
+maximum length of each phase. So that any issues can be quickly addressed, when
+feasible the Elections Committee should aim to set the schedule such that no
+weekends or other holidays occurring during the voting period.
 
-The Elections Committee or Council shall set the entire schedule of an election before it begins, and the Committee shall advertise the dates or arrange for MathSoc to advertise the dates.
+The Elections Committee or Council shall set the entire schedule of an election
+before it begins, and the Committee shall advertise the dates or arrange for
+MathSoc to advertise the dates.
 
-\subsection{Nominations}
-\subsubsection{Contents}
-All candidates for election must nominate themselves, either on a voting platform endorsed by the Federation of Students and approved by the Elections Committee\footnote{for example, \votewebsite}, or by informing the Elections Committee of their intention to run and providing all of the following:
-		\begin{itemize}
-			\item The name, userid, and contact information of the nominee;
-			\item A signed statement of the nominee agreeing to follow the elections
-				procedure;
-			\item The seat and term for which the nominee is being nominated;
-			\item The names, userids, and signatures of a number of eligible Society members endorsing the nomination.
-		\end{itemize}
-A Society member is eligible to endorse a nomination if and only if they are eligible to vote in the election of that seat.
-		
-To be eligible to run for a representative seat, a nomination must receive at least five endorsements from eligible Society members.
-To be eligible to run for an executive seat, a nomination must receive at least ten endorsements from eligible Society members.
+== Nominations <policy>
+=== Contents
+All candidates for election must nominate themselves, either on a voting
+platform endorsed by the Federation of Students and approved by the Elections
+Committee #footnote[for example, #voteWebsite], or by informing the Elections
+Committee of their intention to run and providing all of the following:
+- The name, userid, and contact information of the nominee;
+- A signed statement of the nominee agreeing to follow the elections procedure;
+- The seat and term for which the nominee is being nominated;
+- The names, userIds, and signatures of a number of eligible Society members
+  endorsing the nomination.
+A Society member is eligible to endorse a nomination if and only if they are
+eligible to vote in the election of that seat.
 
-No member of the Elections Committee shall endorse a nomination, and no one shall endorse their own nomination.
-If a member of the Elections Committee endorses a nomination, the endorsement shall be deemed invalid and the entire Elections Committee, as well as the endorsed nominee, shall be informed of the error.
-If someone endorses their own nomination, then their self-nomination shall be deemed invalid and no further consequences will be imposed for the self-nomination.
+To be eligible to run for a representative seat, a nomination must receive at
+least five endorsements from eligible Society members. To be eligible to run for
+an executive seat, a nomination must receive at least ten endorsements from
+eligible Society members.
+
+No member of the Elections Committee shall endorse a nomination, and no one
+shall endorse their own nomination. If a member of the Elections Committee
+endorses a nomination, the endorsement shall be deemed invalid and the entire
+Elections Committee, as well as the endorsed nominee, shall be informed of the
+error. If someone endorses their own nomination, then their self-nomination
+shall be deemed invalid and no further consequences will be imposed for the
+self-nomination.
 
 Multiple nominations may be combined and submitted simultaneously.
 
-\subsubsection{Publication}
-Once the nomination period has ended, the Elections Committee will inform every qualifying candidate of all other candidates running for the same position.
+=== Publication
+Once the nomination period has ended, the Elections Committee will inform every
+qualifying candidate of all other candidates running for the same position.
 
-Once a nomination's validity has been verified, the Elections Committee shall make the nomination public no later than the following regularly-scheduled Council meeting in the case of acclamations, and no later than the business day before campaigning begins in the case of competitive elections.
-If a nomination is deemed invalid, then the Elections Committee shall immediately inform the nominee as well as every candidate for that seat.
-Up to forty-eight (48) hours after the close of nominations and once all nominations have been verified, the Elections Committee shall indicate that all nominations are final and indicate any acclamations.
+Once a nomination's validity has been verified, the Elections Committee shall
+make the nomination public no later than the following regularly-scheduled
+Council meeting in the case of acclamations, and no later than the business day
+before campaigning begins in the case of competitive elections. If a nomination
+is deemed invalid, then the Elections Committee shall immediately inform the
+nominee as well as every candidate for that seat. Up to forty-eight (48) hours
+after the close of nominations and once all nominations have been verified, the
+Elections Committee shall indicate that all nominations are final and indicate
+any acclamations.
 
-The names of those endorsing a nomination shall not be published by any party, but the nomination forms shall be open to inspection by appointment with a member of the Elections Committee until the approval of the election results.
+The names of those endorsing a nomination shall not be published by any party,
+but the nomination forms shall be open to inspection by appointment with a
+member of the Elections Committee until the approval of the election results.
 
-\subsubsection{Verification}
+=== Verification
 
-The Elections Committee shall, as soon as possible, verify the validity of each nomination, including the eligibility of the candidate and the validity of each of the endorsements.
-If a nomination is deemed invalid due to issues with the endorsements, then the Elections Committee may give the nominee an additional business day\footnote{This may include any number of weekends/holidays, but may not contain more than a single business day.} after the close of the nomination period to secure sufficient endorsements.
+The Elections Committee shall, as soon as possible, verify the validity of each
+nomination, including the eligibility of the candidate and the validity of each
+of the endorsements. If a nomination is deemed invalid due to issues with the
+endorsements, then the Elections Committee may give the nominee an additional
+business day #footnote[This may include any number of weekends/holidays, but may
+  not contain more than a single business day.] after the close of the
+nomination period to secure sufficient endorsements.
 
-\subsubsection{Withdrawal}
-A nomination may be voluntarily withdrawn by a candidate at any time prior to the beginning of the voting period by written submission directly to a member of the Elections Committee.
-Endorsements of a nomination cannot be withdrawn.
+=== Withdrawal
+A nomination may be voluntarily withdrawn by a candidate at any time prior to
+the beginning of the voting period by written submission directly to a member of
+the Elections Committee. Endorsements of a nomination cannot be withdrawn.
 
-\subsubsection{Multiple Nominations}
-A candidate may submit multiple nominations when there are elections for more than one seat occurring.
-If a candidate is nominated for more than one Executive position and/or more than one Representative position for the same term, then the candidate shall, within 24 hours of the close of the nomination period, withdraw sufficient nominations to bring the candidate into line with the requirements.
-If the candidate fails to do so, then at that time, their nominations shall be deemed withdrawn except, for each term, the first nomination for an Executive seat and the first nomination for a Representative seat in the order that the Executives and constituencies, respectively, are listed in the bylaws.
+=== Multiple Nominations
+A candidate may submit multiple nominations when there are elections for more
+than one seat occurring. If a candidate is nominated for more than one Executive
+position and/or more than one Representative position for the same term, then
+the candidate shall, within 24 hours of the close of the nomination period,
+withdraw sufficient nominations to bring the candidate into line with the
+requirements. If the candidate fails to do so, then at that time, their
+nominations shall be deemed withdrawn except, for each term, the first
+nomination for an Executive seat and the first nomination for a Representative
+seat in the order that the Executives and constituencies, respectively, are
+listed in the bylaws.
 
-\subsubsection{Acclamation}
-If, 24 hours after the close of nominations, there are no more candidates than seats available in any single election, then all candidates shall be acclaimed and no vote shall be held for that position, with the exception of the positions of Vice-President, Academic and President.
-The candidates are still required to adhere to the remainder of the procedure, in particular to submit an expense report if any expenses were accrued.
+=== Acclamation
+If, 24 hours after the close of nominations, there are no more candidates than
+seats available in any single election, then all candidates shall be acclaimed
+and no vote shall be held for that position, with the exception of the positions
+of Vice-President, Academic and President. The candidates are still required to
+adhere to the remainder of the procedure, in particular to submit an expense
+report if any expenses were accrued.
 
-\subsection{Campaigning}
-\subsubsection{Basic Requirements}
+== Campaigning <policy>
+=== Basic Requirements
 No candidate shall campaign unless
-\begin{itemize}
-	\item It is during the campaigning period; and
-	\item Their nomination has been received by a member of the Elections Committee; and
-	\item They have reviewed the rules of the campaign with an Elections Committee member.
-\end{itemize}
+- It is during the campaigning period; and
+- Their nomination has been received by a member of the Elections Committee; and
+- They have reviewed the rules of the campaign with an Elections Committee
+  member.
 
-\subsubsection{Spending Limits}
-A candidate is limited to spending \$75 on campaign materials for an Executive election and \$40 on campaign materials for a Representative election.
-If a candidate is running for both an Executive and a Representative seat, then expenses shall be counted against both campaigns unless they are clearly associated with a specific campaign.
+=== Spending Limits
+A candidate is limited to spending \$75 on campaign materials for an Executive
+election and \$40 on campaign materials for a Representative election. If a
+candidate is running for both an Executive and a Representative seat, then
+expenses shall be counted against both campaigns unless they are clearly
+associated with a specific campaign.
 
-If a candidate spends any money on their campaign, they shall provide the Elections Committee with a complete account of all campaign expenses by the end of the voting period.
-A candidate shall be reimbursed for the full cost of their expenses provided that they provide receipts or other evidence of the costs, in accordance with the normal financial procedures of the Society unless penalized by the Elections Committee for violations of campaigning rules.
+If a candidate spends any money on their campaign, they shall provide the
+Elections Committee with a complete account of all campaign expenses by the end
+of the voting period. A candidate shall be reimbursed for the full cost of their
+expenses provided that they provide receipts or other evidence of the costs, in
+accordance with the normal financial procedures of the Society unless penalized
+by the Elections Committee for violations of campaigning rules.
 
-Campaigning materials acquired for free or at a price unavailable to other candidates shall be reported at a fair market value and shall count towards the expenses limit at that value.
-Materials acquired at a reduced price where that reduced price is, or would have been, available to all candidates may be accounted for at the reduced price, if the candidate can produce documentation.
+Campaigning materials acquired for free or at a price unavailable to other
+candidates shall be reported at a fair market value and shall count towards the
+expenses limit at that value. Materials acquired at a reduced price where that
+reduced price is, or would have been, available to all candidates may be
+accounted for at the reduced price, if the candidate can produce documentation.
 
-\subsubsection{Campaigning Rules}
-When campaigning, candidates shall adhere to all policies of the University and campaign with high moral standards.
-Candidates shall take care to ensure that their methods of campaigning are not offensive or overly annoying.
+=== Campaigning Rules
+When campaigning, candidates shall adhere to all policies of the University and
+campaign with high moral standards. Candidates shall take care to ensure that
+their methods of campaigning are not offensive or overly annoying.
 
-Posters and other signage shall be limited to publicly accessible areas of the buildings operated by the Mathematics Faculty. 
-Posters and signage must be written entirely in English. 
-Posters and signage designs must be sent to the Elections Committee for approval (in person or electronically) prior to posting. 
-Poster approval will not be withheld unless posters or signage do not follow MathSoc elections policy.
+Posters and other signage shall be limited to publicly accessible areas of the
+buildings operated by the Mathematics Faculty. Posters and signage must be
+written entirely in English. Posters and signage designs must be sent to the
+Elections Committee for approval (in person or electronically) prior to posting.
+Poster approval will not be withheld unless posters or signage do not follow
+MathSoc elections policy.
 
-Campaigning shall be generally permitted to occur without prior approval of the Elections Committee.
-Campaign materials should indicate contact information for the Elections Committee in the event of a complaint.
+Campaigning shall be generally permitted to occur without prior approval of the
+Elections Committee. Campaign materials should indicate contact information for
+the Elections Committee in the event of a complaint.
 
-No person shall remove a candidate's campaign material prior to the close of the election except under authorization of the candidate or the Elections Committee, unless such material violates University policy or law.
+No person shall remove a candidate's campaign material prior to the close of the
+election except under authorization of the candidate or the Elections Committee,
+unless such material violates University policy or law.
 
-\subsubsection{Voting Period}
-During the voting period, no one shall actively campaign for the election of any specific candidate.
-Material posted or distributed prior to the voting period may remain posted during the voting period.
-At the conclusion of the voting period, it is a candidate's responsibility to clean up after their campaign.
+=== Voting Period
+During the voting period, no one shall actively campaign for the election of any
+specific candidate. Material posted or distributed prior to the voting period
+may remain posted during the voting period. At the conclusion of the voting
+period, it is a candidate's responsibility to clean up after their campaign.
 
-During the voting period, a candidate is allowed to answer questions that require a response that might otherwise be considered campaigning.
+During the voting period, a candidate is allowed to answer questions that
+require a response that might otherwise be considered campaigning.
 
-\subsubsection{Encouragement to Vote}
-Encouraging eligible voters to vote, without supporting or denouncing a specific candidate or candidates, is not considered campaigning and may done freely by any party, including a candidate, throughout the entirety of the election, including the voting period.
-Likewise, any party, including a candidate, may inform eligible voters of any or all candidates that are running and it shall not considered campaigning, throughout the entirety of the election, including the voting period, as long as no specific candidate is supported or denounced.\footnote{For example, during the voting period a candidate can say ``I am running for Council, go to \votewebsite{} to vote!'', but cannot say ``I am running for Council, go to \votewebsite{} and vote for me!''.}
+=== Encouragement to Vote
+Encouraging eligible voters to vote, without supporting or denouncing a specific
+candidate or candidates, is not considered campaigning and may done freely by
+any party, including a candidate, throughout the entirety of the election,
+including the voting period. Likewise, any party, including a candidate, may
+inform eligible voters of any or all candidates that are running and it shall
+not considered campaigning, throughout the entirety of the election, including
+the voting period, as long as no specific candidate is supported or denounced.
+#footnote[For example, during the voting period a candidate can say "I am
+  running for Council, go to #voteWebsite to vote!", but cannot say "I am
+  running for Council, go to #voteWebsite and vote for me!".]
 
-The Elections Committee may, within the limits of its own spending authorizations, authorize the reimbursement of any party for any expenses incurred in the process of encouraging voters to vote.
+The Elections Committee may, within the limits of its own spending
+authorizations, authorize the reimbursement of any party for any expenses
+incurred in the process of encouraging voters to vote.
 
-\subsection{Voting}
-\subsubsection{Means of Voting}
-\label{elections:meansOfVoting}
-Voting shall be conducted by an electronic poll on either the Society's or the Federation of Students' website.
-Voting shall be by means of preferential ballot, in which the voter ranks some or all of the candidates.
-If permitted by the voting software and electoral system, a candidate may rank some candidates equally.
-If supported by the voting software, the candidates shall be listed in random order for each voter.
-In the event of significant technical issues, the Elections Committee may allow voting to be done on paper ballots, or extend the voting period.
+== Voting <policy>
+=== Means of Voting <policy-elections-meansOfVoting>
+Voting shall be conducted by an electronic poll on either the Society's or the
+Federation of Students' website. Voting shall be by means of preferential
+ballot, in which the voter ranks some or all of the candidates. If permitted by
+the voting software and electoral system, a candidate may rank some candidates
+equally. If supported by the voting software, the candidates shall be listed in
+random order for each voter. In the event of significant technical issues, the
+Elections Committee may allow voting to be done on paper ballots, or extend the
+voting period.
 
-Each voter shall be permitted to vote in each Executive election, and in each Representative election that they are an eligible voter for.
-For further clarity, if a voter is in multiple constituencies, then the voter may vote in none, some, or all of said constituencies.
+Each voter shall be permitted to vote in each Executive election, and in each
+Representative election that they are an eligible voter for. For further
+clarity, if a voter is in multiple constituencies, then the voter may vote in
+none, some, or all of said constituencies.
 
-The resolution method shall be decided prior to the voting period and published in a prominent place associated with the election.
+The resolution method shall be decided prior to the voting period and published
+in a prominent place associated with the election.
 
-Notwithstanding \cref{elections:voting:publication}, the vote shall be secret to the greatest extent mathematically possible.\footnote{In some extreme cases, for example if the result is unanimous, then it is not mathematically possible for the vote to be secret.}
+Notwithstanding @policy-elections-voting-publication the vote shall be secret to
+the greatest extent mathematically possible.
+#footnote[In some extreme cases, for example if the result is unanimous, then it
+  is not mathematically possible for the vote to be secret.]
 
-\subsubsection{Office}
-During the voting period, the election shall be prominently advertised in the Society office, and at least one computer in the office shall be made available for voting on request.
-Instructions shall be made clearly available, and office staff shall be instructed on how to help members cast their votes.
+=== Office
+During the voting period, the election shall be prominently advertised in the
+Society office, and at least one computer in the office shall be made available
+for voting on request. Instructions shall be made clearly available, and office
+staff shall be instructed on how to help members cast their votes.
 
-\subsubsection{Candidate Information}
-The Elections Committee shall post to the Society website a brief summary of each candidate, and if the candidate responds, a short statement solicited from the candidate.
-The Committee shall ensure that this information is available to voters when they cast their votes.
+=== Candidate Information
+The Elections Committee shall post to the Society website a brief summary of
+each candidate, and if the candidate responds, a short statement solicited from
+the candidate. The Committee shall ensure that this information is available to
+voters when they cast their votes.
 
-\subsubsection{Scrutineers}
-If permitted by the voting software, each candidate can appoint one scrutineer to verify and monitor the voting platform.
-The scrutineer shall have read-only access to the voting platform throughout the voting period, but not to the database of votes cast.
+=== Scrutineers
+If permitted by the voting software, each candidate can appoint one scrutineer
+to verify and monitor the voting platform. The scrutineer shall have read-only
+access to the voting platform throughout the voting period, but not to the
+database of votes cast.
 
-\subsubsection{Tiebreaker}
-With the exception of single-candidate elections for the seats of Vice-President, Academic and President, the Elections Committee shall appoint a tiebreaker for each election, who must be eligible to vote in that election and must not be a candidate in that election.
-The tiebreaker shall not cast a normal vote in that election but instead shall seal and date a strict ranking of all candidates in an envelope prior to the beginning of the voting period.
-The envelope shall be kept in the custody of a member of the Elections Committee other than the tiebreaker.
-In the event of a tie, the envelope shall be opened and the ranking within used to break the tie.
-The envelope shall not otherwise be opened.
+=== Tiebreaker
+With the exception of single-candidate elections for the seats of
+Vice-President, Academic and President, the Elections Committee shall appoint a
+tiebreaker for each election, who must be eligible to vote in that election and
+must not be a candidate in that election. The tiebreaker shall not cast a normal
+vote in that election but instead shall seal and date a strict ranking of all
+candidates in an envelope prior to the beginning of the voting period. The
+envelope shall be kept in the custody of a member of the Elections Committee
+other than the tiebreaker. In the event of a tie, the envelope shall be opened
+and the ranking within used to break the tie. The envelope shall not otherwise
+be opened.
 
-\subsubsection{Resolution}
-With the exception of single-candidate elections for the seats of Vice-President, Academic and President, the elections shall be resolved through any Single Transferable Vote method permitted by Federation of Students policies or procedures.
+=== Resolution
+With the exception of single-candidate elections for the seats of
+Vice-President, Academic and President, the elections shall be resolved through
+any Single Transferable Vote method permitted by Federation of Students policies
+or procedures.
 
-Single-candidate elections for the seats of Vice-President, Academic and President shall be resolved through any approval voting method permitted by Federation of Students policies or procedures, where the number of votes in favour of the candidate must be a majority of total votes cast for the position. The ballot shall have a visible description to the effect of ``This candidate is running unopposed, but must receive a majority of votes in an approval vote to be elected.''. This approval vote shall occur during the scheduled voting period.
+Single-candidate elections for the seats of Vice-President, Academic and
+President shall be resolved through any approval voting method permitted by
+Federation of Students policies or procedures, where the number of votes in
+favour of the candidate must be a majority of total votes cast for the position.
+The ballot shall have a visible description to the effect of "This candidate is
+running unopposed, but must receive a majority of votes in an approval vote to
+be elected.". This approval vote shall occur during the scheduled voting period.
 
-\subsubsection{Publication}
-\label{elections:voting:publication}
-The Elections Committee shall, as soon as the election is completed, publish the results of the election, and if permitted by the voting software, a listing of the ballots received with sufficient information as to allow for independent verification of the results.
-If such a listing of ballots is not permitted by the voting software, then as detailed a listing of ballots as possible shall be published.
+=== Publication <policy-elections-voting-publication>
+The Elections Committee shall, as soon as the election is completed, publish the
+results of the election, and if permitted by the voting software, a listing of
+the ballots received with sufficient information as to allow for independent
+verification of the results. If such a listing of ballots is not permitted by
+the voting software, then as detailed a listing of ballots as possible shall be
+published.
 
-\subsection{Violations}
-
-No candidate shall violate the election rules, or knowingly allow another to do so.
-A candidate who fails to report a violation of the rules may be held personally responsible for the violation.
+== Violations <policy>
+No candidate shall violate the election rules, or knowingly allow another to do
+so. A candidate who fails to report a violation of the rules may be held
+personally responsible for the violation.
 
 No candidate shall act in bad faith in any manner concerning the election.
 
-\subsubsection{Penalties}
-		\begin{enumerate}
-			\item The EC and its agents shall have the discretion to assign demerit points for confirmed allegations made against a candidate, campaign team, or referendum committee less than or equal to the amounts stated in \cref{elections:demeritPointSchedule}: Demerit Point Schedule.
-				\begin{enumerate}
-					\item \label{elections:mitigating1} In the absence of significant mitigating circumstances in the opinion of the EC, the maximum penalty will be assigned. Lack of knowledge of any rules outlined in this procedure or any other MathSoc Policy or Bylaw is not a mitigating circumstance.
-					\item If the offence in question is either ``Minor contravention of the spirit, or indirect or implicit violation of these or any other relevant bylaw, policy, or procedure of MathSoc, other than what is outlined elsewhere in \cref{elections:demeritPointSchedule}'' or ``Major contravention of the spirit, or indirect or implicit violation of these or any other relevant bylaw, policy, or procedure of MathSoc, other than what is outlined elsewhere in \cref{elections:demeritPointSchedule}'', then \cref{elections:mitigating1} does not apply. However, lack of knowledge of any rules outlined in this procedure or any other MathSoc Policy or Bylaw is still not to be considered when determining the penalty.
-				\end{enumerate}
-			\item Candidates or campaign teams shall have a maximum of ten (10) demerit points. If a candidate receives eleven (11) demerit points or more, they shall be disqualified from the election, thereby voiding their candidacy and forfeiting 100\% of their potential reimbursement for incurred campaign expenses. A candidate who is disqualified from an election should, in all future elections for which they are a candidate, have said disqualification explicitly noted on the voting platform and on the Society website\footnote{Something along the lines of ``NOTE: This candidate has been disqualified from a previous election for the following violations of the election procedure:'', followed by a list of the offenses, would suffice.}.
-			\item \label{elections:referendumCommitteeDisqualification} Referendum committees shall have a maximum of ten (10) demerit points. If a referendum committee receives eleven (11) demerit points or more, they shall be disqualified from the referendum.
-				\begin{enumerate}
-					\item \label{elections:referendumCommitteeDisqualificationPunishment} Any referendum committee disqualified for any reason shall not be reimbursed for any referendum expenses and shall be prohibited from further campaigning. The committee will be required to remove all posters and campaign materials, and shall not participate in public forums. The EC and its agents will not set up interviews with newspapers, or any other forms of campaigning as decided by the CRO. Upon disqualification and during the polling period, signs will be posted and MathSoc's website will be updated, informing voters of the disqualification
-					\item Notwithstanding \cref{elections:referendumCommitteeDisqualification} and \cref{elections:referendumCommitteeDisqualificationPunishment}, the referendum option associated with a disqualified referendum committee shall remain on all ballots.
-				\end{enumerate}
-		\end{enumerate}
+=== Penalties
++ The EC and its agents shall have the discretion to assign demerit points for
+  confirmed allegations made against a candidate, campaign team, or referendum
+  committee less than or equal to the amounts stated in
+  @policy-elections-demeritPointSchedule.
+  + In the absence of significant mitigating circumstances in the opinion of the
+    EC, the maximum penalty will be assigned. Lack of knowledge of any rules
+    outlined in this procedure or any other MathSoc Policy or Bylaw is not a
+    mitigating circumstance. <policy-elections-penalties-mitigating1>
+  + If the offence in question is either "Minor contravention of the spirit, or
+    indirect or implicit violation of these or any other relevant bylaw, policy,
+    or procedure of MathSoc, other than what is outlined elsewhere in
+    @policy-elections-demeritPointSchedule" or "Major contravention of the
+    spirit, or indirect or implicit violation of these or any other relevant
+    bylaw, policy, or procedure of MathSoc, other than what is outlined
+    elsewhere in @policy-elections-demeritPointSchedule", then #link(
+      <policy-elections-penalties-mitigating1>,
+      [Item 1.a],
+    ) does not apply. However, lack of knowledge of any rules outlined in this
+    procedure or any other MathSoc Policy or Bylaw is still not to be considered
+    when determining the penalty.
++ Candidates or campaign teams shall have a maximum of ten (10) demerit points.
+  If a candidate receives eleven (11) demerit points or more, they shall be
+  disqualified from the election, thereby voiding their candidacy and forfeiting
+  100% of their potential reimbursement for incurred campaign expenses. A
+  candidate who is disqualified from an election should, in all future elections
+  for which they are a candidate, have said disqualification explicitly noted on
+  the voting platform and on the Society website #footnote[Something along the
+    lines of "NOTE: This candidate has been disqualified from a previous
+    election for the following violations of the election procedure:", followed
+    by a list of the offenses, would suffice.].
++ Referendum committees shall have a maximum of ten (10) demerit points. If a
+  referendum committee receives eleven (11) demerit points or more, they shall
+  be disqualified from the
+  referendum. <policy-elections-penalties-referendumCommitteeDisqualification>
+  + Any referendum committee disqualified for any reason shall not be reimbursed
+    for any referendum expenses and shall be prohibited from further
+    campaigning. The committee will be required to remove all posters and
+    campaign materials, and shall not participate in public forums. The EC and
+    its agents will not set up interviews with newspapers, or any other forms of
+    campaigning as decided by the CRO. Upon disqualification and during the
+    polling period, signs will be posted and MathSoc's website will be updated,
+    informing voters of the disqualification.
+    <policy-elections-penalties-referendumCommitteeDisqualificationPunishment>
+  + Notwithstanding #link(
+      <policy-elections-penalties-referendumCommitteeDisqualification>,
+      [Item 3],
+    ) and #link(
+      <policy-elections-penalties-referendumCommitteeDisqualificationPunishment>,
+      [Item 3a],
+    ), the referendum option associated with a disqualified referendum committee
+    shall remain on all ballots.
 
-    \subsubsection{During Election}
-Disputes during the election shall be resolved by the Elections Committee at its discretion.
-Complaints are to be submitted in writing to any member of the Committee, and need not come from a candidate.
-The Elections Committee may also take up violations of its own initiative.
-For violation of the rules, the Elections Committee may impose a reduction of spending limit, order removal of campaign material, limit a candidate's means of campaigning, or impose other penalties as it sees fit, except that it may disqualify candidates only when so authorized.
+=== During Election
+Disputes during the election shall be resolved by the Elections Committee at its
+discretion. Complaints are to be submitted in writing to any member of the
+Committee, and need not come from a candidate. The Elections Committee may also
+take up violations of its own initiative. For violation of the rules, the
+Elections Committee may impose a reduction of spending limit, order removal of
+campaign material, limit a candidate's means of campaigning, or impose other
+penalties as it sees fit, except that it may disqualify candidates only when so
+authorized.
 
-A candidate who overspends or fails to submit an expense report within a reasonable time frame shall be disqualified by the Elections Committee.
-If the Elections Committee believes that a candidate should be disqualified for any other reason, then they shall report the recommendation to Council, and Council can impose the disqualification.
-The Elections Committee may impose an alternate penalty to apply until Council makes its decision and/or if Council chooses not to disqualify the candidate.
+A candidate who overspends or fails to submit an expense report within a
+reasonable time frame shall be disqualified by the Elections Committee. If the
+Elections Committee believes that a candidate should be disqualified for any
+other reason, then they shall report the recommendation to Council, and Council
+can impose the disqualification. The Elections Committee may impose an alternate
+penalty to apply until Council makes its decision and/or if Council chooses not
+to disqualify the candidate.
 
-\subsubsection{Publication}
-When the Elections Committee imposes a penalty, they shall inform the penalized member of the decision and the reasons for that decision.
-They shall publish the penalty and a brief summary of the reasoning to the Society website, taking care as not to prejudice voters.
-Additionally, when a penalty is imposed on a candidate, every other candidate for the same seat or seats shall be personally informed with a brief summary of the penalty.
+=== Publication
+When the Elections Committee imposes a penalty, they shall inform the penalized
+member of the decision and the reasons for that decision. They shall publish the
+penalty and a brief summary of the reasoning to the Society website, taking care
+as not to prejudice voters. Additionally, when a penalty is imposed on a
+candidate, every other candidate for the same seat or seats shall be personally
+informed with a brief summary of the penalty.
 
-When the Elections Committee chooses to recommend a disqualification, it shall inform the candidate, but shall not inform other candidates nor publish the recommendation until it is reported to Council.
+When the Elections Committee chooses to recommend a disqualification, it shall
+inform the candidate, but shall not inform other candidates nor publish the
+recommendation until it is reported to Council.
 
+#pagebreak()
 
-    \subsubsection{Demerit Point Schedule}
-\label{elections:demeritPointSchedule} 
+=== Demerit Point Schedule <policy-elections-demeritPointSchedule>
+// The table seems to have been copied from WUSA almost word-for-word
+#align(center)[
+  #table(
+    columns: (2.5fr, 1fr),
+    align: left,
+    table.cell(fill: gray)[*_Violation_*],
+    table.cell(fill: gray)[_*Penalty per Infraction*_],
 
-%% The table seems to have been copied from WUSA almost word-for-word
+    [Spending over the allotted budget],
+    [2 points for every \$15 over the allowable budget, rounded up],
 
-\begin{center}
-	\begin{tabular}{| p{11.5cm} | p{4cm} |}
-		\hline
-		\rowcolor{lightgray} \textit{\textbf{Violation}} & \textit{\textbf{Penalty (per infraction)}}  \\ 
-		\hline
-		Spending over the allotted budget & 2 points for every \$15 over the allowable budget, rounded up\\  
-		\hline
-		Purposefully and significantly misrepresenting a candidate’s own character or statement(s), the character or statement(s) of another candidate, campaign team, or committee & 10 points \\
-		\hline
-		Purposefully and significantly misrepresenting or misattributing the character or statements of any party not outlined in the above point for election purposes & 10 points \\
-		\hline 
-		Impersonation of another candidate or committee & 11 points \\
-		\hline
-		Campaigning outside of campaign period & 2 to 8 points (depending on severity) \\
-		\hline
-		Speak to or email a class without the permission of the instructor & 2 points \\
-		\hline
-		Directly providing a method of voting to voters during polling period (this does not include telling voters that they can vote at \votewebsite, but does include handing them an electronic device with \votewebsite{} opened, for example), or campaigning to a voter while voting & 3 points \\
-		\hline
-		Distributing bribes, including food, for campaigning purposes during campaigning period & 7 to 11 points (depending on severity) \\
-		\hline
-		Distributing bribes, including food, for campaign purposes during voting period & 11 points \\
-		\hline
-		Enter into contractual obligations with any group(s) on or off campus that may affect MathSoc during their term in office & 11 points \\
-		\hline 
-		Lying to, or intentionally misleading the EC or its agents regarding matters pertaining to their role(s) or allegations and appeals & 11 points \\
-		\hline
-		Making a public allegation that another candidate, campaign team or referendum committee has violated any rules before a decision has been delivered and made public by the commission or its agents & 5 points \\
-		\hline
-		Receiving or soliciting funding or monetary equivalent from students or other individuals. & 8 points \\
-		\hline 
-		Receiving funding and staff, volunteer, or material support from external political/advocacy organizations or external unions/associations (e.g. funding from CUPE, CFS, OUSA, or other schools’ student associations) & At least 11 points \\
-		\hline 
-		Serious breach of democratic process (e.g.\ intentionally compromising ballots, etc.) & 11 points \\ 
-		\hline
-		Minor contravention of the spirit, or indirect or implicit violation of these or any other relevant bylaw, policy or procedure of MathSoc, other than what is outlined elsewhere in \cref{elections:demeritPointSchedule} & 6 points \\
-		\hline
-		Major contravention of the spirit, or indirect or implicit violation of these or any other relevant bylaw, policy or procedure of MathSoc, other than what is outlined elsewhere in \cref{elections:demeritPointSchedule} & 11 points \\
-		\hline
-	\end{tabular}
-\end{center}
+    [Purposefully and significantly misrepresenting a candidate's own character
+      or statement(s), the character or statement(s) of another candidate,
+      campaign team, or committee],
+    [10 points],
 
+    [Purposefully and significantly misrepresenting or misattributing the
+      character or statements of any party not outlined in the above point for
+      election purposes],
+    [10 points],
 
+    [Impersonation of another candidate or committee], [11 points],
 
-\subsubsection{Allegations Against Candidates}
-		\begin{enumerate}
-			\item By submitting an allegation via email to the Election Committee, a member of the University community alleges that a candidate, campaign team, or referendum committee, has violated portions of this procedure, or any relevant by-law, policy, or procedure of MathSoc.
-			\item General Rules 
-				\begin{enumerate}
-					\item All allegations pertaining to an active Electoral Event shall be submitted in writing via an email to either the Elections Committee as a whole or any individual member of the Elections Committee. The EC may not accept any non-written submission of an allegation.
-					\item The Elections Committee may also take up violations of its own initiative.
-					\item Normally, allegations must not be submitted anonymously, and all Complainants must agree to identify themselves to the EC or CRO. Anonymously submitted allegations may be dismissed at the discretion of the CRO.
-					\item Submissions of allegations will be accepted by the EC until two (2) hours after the conclusion of the voting period. Any allegations submitted after this deadline will be considered for review at the discretion of the CRO.
-				\end{enumerate}
-			\item Once an allegation is received, the EC shall notify the complainant(s) of its receipt.
-			\item Candidates, campaign teams, and referendum committees shall be immediately notified by the EC of any allegations made against them, and shall be permitted to present a defence or pieces of counterevidence against the allegation to the EC. With the unanimous consent of the EC, the EC may withhold information regarding the complainant from the respondent. All pieces of counterevidence and/or an accompanying defence shall be prepared and submitted no later than twenty-four (24) hours after being notified of an allegation.
-			\item The EC shall normally endeavour to process individual allegations and come to a ruling within twenty-four (24) hours of its receipt, but may take as much time as reasonably necessary where permitted by the CRO.
-			\item All allegations shall be kept strictly confidential by all involved parties until a decision has been rendered and publicized by the EC.
-			\item The EC reserves the right to dismiss any allegation which causes reasonable suspicion that the allegation was made frivolously or vexatiously or for purposes that violate, in letter or spirit, any portion of this procedure.
-			\item Any candidate, campaign team, or referendum committee may file a grievance against the EC or the CRO alleging failure to enforce procedure and uphold and apply rules fairly and equitably to MathSoc Council, who will hear and render a decision on the grievance before the election or referendum result is ratified.
-		\end{enumerate}
-    \subsubsection{Decisions On Allegations}
-			The EC or CRO shall separately inform the complainant and the respondent of their decision within two (2) hours of having made said decision, and shall make accessible to all members of MathSoc Council all documents associated with that particular allegation, and the rationale behind the ruling. The EC has the right to withhold any documents or proof that they feel might cause harm to someone by unanimous consent of the EC.
-    \subsubsection{Appealing EC's Decision}
-		\begin{enumerate}
-			\item After receiving the decision of the EC, the respondent or complainant may appeal the decision of EC to the council by submitting in writing to the CRO and the Speaker of Council.
-				\begin{enumerate}
-					\item Appeals must be submitted within twenty-four (24) hours of receiving notice of the decision of the EC or within two (2) hours of the end of the polling period. Any appeals submitted after this deadline will be considered for review at the discretion of the CRO.
-					\item Appeals shall be kept strictly confidential by all involved parties until a decision has been rendered and publicized by the CRO.
-				\end{enumerate}
-			\item A decision of the EC shall be considered appealable if the appellant, which must either be the complainant or respondent named in the original allegation, is able to reasonably establish any or all of the following:
-				\begin{enumerate}
-					\item There is evidence that a set of procedural errors were made that were significant enough to alter the final decision made by the CRO.
-					\item There is reasonable belief that portions of this procedure have been improperly applied in letter or spirit.
-					\item There is reasonable suspicion of bias during any portion of the decision-making process.
-					\item There is new information relevant to the original allegation that was not originally discovered or presented, especially pieces of information that could alter the final decision.
-					\item That the determined penalty exceeds the nature of the violation or offence.
-					\item That inadequate consideration was given to the provided evidence.
-					\item If a complaint was dismissed as frivolous or vexatious and the appellant believes themselves to have a reasonable case.
-				\end{enumerate}
-			\item The appellant must include in their appeal, the following information:
-				\begin{enumerate}
-					\item All relevant case information, such that the CRO or EC, as the case may be, will be able to accurately identify the allegation in question.
-					\item A description of and the reasoning for appeal, including grounds for appeal.
-					\item A description of what the appellant(s) are seeking.
-					\item All relevant documentation to supplement or support the above.
-				\end{enumerate}
-			\item The CRO shall immediately notify the EC, the respondent, the complainant, and the Speaker of Council that an appeal has been received.
-			\item Within forty-eight (48) hours of receiving the appeal, or twenty-four (24) hours after the end of the polling period, the CRO or EC, as the case may be, shall make its decision. The Council may, in consideration of all evidence gathered and presented, do any of the following:
-				\begin{enumerate}
-					\item Uphold the original decision
-					\item Alter the penalty of the original decision, within the limits of this procedure
-					\item Overturn the decision and present an alternate ruling, thereby eliminating the decision's penalties so received
-				\end{enumerate}
-			\item All rulings rendered by Council shall be final.
-			\item Notwithstanding any provisions within this section, the EC shall be empowered to initiate a review of any decision of the CRO at any time until the conclusion of the electoral event.
-		\end{enumerate}
+    [Campaigning outside of campaign period],
+    [2 to 8 points (depending on severity)],
 
-\subsubsection{After Election}
-If a candidate feels that they have been unfairly treated by the Elections Committee, or has an issue to raise after the voting period, then the complaint shall be submitted in writing to the President up to two business days after the voting period.
-The President shall raise each such complaint at the next meeting of Council for Council to decide upon prior to ratifying the election results.
+    [Speak to or email a class without the permission of the instructor],
+    [2 points],
 
-\subsubsection{Barring Members from Candidacy}
-This procedure is intended only to be used in extreme cases where disqualification from one election is deemed insufficient or ineffective.
+    [Directly providing a method of voting to voters during polling period (this
+      does not include telling voters that they can vote at #voteWebsite, but
+      does include handing them an electronic device with #voteWebsite opened,
+      for example), or campaigning to a voter while voting],
+    [3 points],
 
-A member may be barred from candidacy in elections during the current term and following two terms under the following conditions:
-\begin{enumerate}
-    \item The candidate has been disqualified from an election for violations of election procedure; % NOTE: "an election" means any election. Prior or current term.
-    \item The Elections Committee recommends unanimously to Council that the member be considered for being barred from candidacy;
-    \item The member has been notified that Council will consider to bar them from candidacy at an upcoming meeting, and has been informed of the meeting with at least five days notice; and,
-    \item Council votes at this meeting, by a $\frac34$ majority in a secret ballot, to bar the member from candidacy as stated above.
-\end{enumerate}
-A decision to bar a member from candidacy must be published on the Society website.
+    [Distributing bribes, including food, for campaigning purposes during
+      campaigning period],
+    [7 to 11 points (depending on severity)],
 
-In the case that a member is barred from candidacy in elections as described above, they may appeal to the Federation of Students no more than once while the bar is active by notifying the President of the Federation, the Speaker of Council, and the Elections Committee. The barred member may present their case to the Federation's board of directors. The Elections Committee, or a subset thereof, must present the case for upholding the bar. Following discussion, the board must vote by secret ballot whether to overturn the Society's prior decision, which may be done by a simple majority.
+    [Distributing bribes, including food, for campaign purposes during voting
+      period
+    ],
+    [11 points],
 
-\subsection{Ratification}
-The Elections Committee shall report to Council the outcome of each election for ratification.
-If Council finds that there has been an irregularity in the election, it may invalidate the election, in whole or in part, and require that it be held again from any point.
-Otherwise, the election results as approved by Council are final.
+    [Enter into contractual obligations with any group(s) on or off campus that
+      may affect MathSoc during their term in office],
+    [11 points],
 
-In the event that Council is unable to meet to receive the Elections Committee's report, then the Executive Board along with the Speaker of Council and the Chair of the Board of Directors  may receive the report as well as any appeals received by the President and act on it then in Council's stead.
+    [Lying to, or intentionally misleading the EC or its agents regarding
+      matters pertaining to their role(s) or allegations and appeals],
+    [11 points],
 
-\subsection{Referendum Procedure}
-Except as noted in this section, a referendum shall be governed by the same rules as an election, \emph{mutatis mutandis}.
+    [Making a public allegation that another candidate, campaign team or
+      referendum committee has violated any rules before a decision has been
+      delivered and made public by the commission or its agents],
+    [5 points],
 
-\subsubsection{Petitions}
-When a petition for a referendum is received, it shall be verified by the Elections Committee, which Council shall appoint if necessary.
-If the petition is determined to be invalid, the Elections Committee shall return it to the submitter with an explanation of why it was deemed invalid.
+    [Receiving or soliciting funding or monetary equivalent from students or
+      other individuals.],
+    [8 points],
 
-A petition for a referendum on a nonsensical or useless resolution shall not be accepted.
-If a petition contains multiple resolutions, some of which are nonsensical or useless, the petition shall still be accepted for the remaining resolution or resolutions.
+    [Receiving funding and staff, volunteer, or material support from external
+      political/advocacy organizations or external unions/associations (e.g.
+      funding from CUPE, CFS, OUSA, or other schools' student associations)],
+    [At least 11 points],
 
-\subsubsection{Schedule}
-When a referendum is to be held, the Elections Committee or Council shall set the schedule.
-A referendum shall consist of three phases:
-\begin{enumerate}
-  \item The campaigning committees formation period, which shall contain at least 5 business days;
-  \item An all-committees meeting, which shall occur one and two business days after the end of the nomination period, at which all referendum campaigning committee members or a proxy of whom must be present unless excused by the Elections Committee;
-  \item The campaign period, which shall contain at least 5 business days, normally starting the business day immediately after the all-committees meeting but starting up to three business days after the all-committees meeting in special circumstances; and
-  \item The voting period, which shall contain 2 to 5 business days, and begin on the business day immediately following the campaign period.
-\end{enumerate}
+    [Serious breach of democratic process (e.g. intentionally compromising
+      ballots, etc.)],
+    [11 points],
 
-\subsubsection{Referenda Campaigning Committees}
+    [Minor contravention of the spirit, or indirect or implicit violation of
+      these or any other relevant bylaw, policy or procedure of MathSoc, other
+      than what is outlined elsewhere in
+      @policy-elections-demeritPointSchedule],
+    [6 points],
 
-Any voting member, except a member of the Elections Committee, may nominate themselves to join one of the referendum campaigning committees by submission to the Elections Committee and providing all of the following:
-\begin{enumerate}
-  \item The name, userid, and contact information of the nominee;
-  \item A signed statement of the nominee agreeing to follow the referenda procedure;
-  \item The referendum option for which the nominee wishes to join the referendum campaigning committee.
-\end{enumerate}
+    [Major contravention of the spirit, or indirect or implicit violation of
+      these or any other relevant bylaw, policy or procedure of MathSoc, other
+      than what is outlined elsewhere in
+      @policy-elections-demeritPointSchedule],
+    [11 points],
+  )
+]
 
-A nomination may be voluntarily withdrawn by a candidate at any time prior to the all-committees meeting by written submission directly to a member of the Elections Committee. No one shall nominate themselves to be a member of both campaigning committees for a referendum.
+#pagebreak()
 
-On the business day after the committee formation period ends, the Elections Committee shall select members to form the campaigning committees for each referendum option from those who submitted a nomination to join one of the campaigning committees. Each referendum campaigning committee shall consist of at most five members. All selected members to the referendum campaigning committees shall be informed of their membership before the mandatory all-committees meeting.
+=== Allegations Against Candidates
++ By submitting an allegation via email to the Election Committee, a member of
+  the University community alleges that a candidate, campaign team, or
+  referendum committee, has violated portions of this procedure, or any relevant
+  by-law, policy, or procedure of MathSoc.
++ General Rules
+  + All allegations pertaining to an active Electoral Event shall be submitted
+    in writing via an email to either the Elections Committee as a whole or any
+    individual member of the Elections Committee. The EC may not accept any
+    non-written submission of an allegation.
+  + The Elections Committee may also take up violations of its own initiative.
+  + Normally, allegations must not be submitted anonymously, and all
+    Complainants must agree to identify themselves to the EC or CRO. Anonymously
+    submitted allegations may be dismissed at the discretion of the CRO.
+  + Submissions of allegations will be accepted by the EC until two (2) hours
+    after the conclusion of the voting period. Any allegations submitted after
+    this deadline will be considered for review at the discretion of the CRO.
++ Once an allegation is received, the EC shall notify the complainant(s) of its
+  receipt.
++ Candidates, campaign teams, and referendum committees shall be immediately
+  notified by the EC of any allegations made against them, and shall be
+  permitted to present a defence or pieces of counter-evidence against the
+  allegation to the EC. With the unanimous consent of the EC, the EC may
+  withhold information regarding the complainant from the respondent. All pieces
+  of counter-evidence and/or an accompanying defence shall be prepared and
+  submitted no later than twenty-four (24) hours after being notified of an
+  allegation.
++ The EC shall normally endeavour to process individual allegations and come to
+  a ruling within twenty-four (24) hours of its receipt, but may take as much
+  time as reasonably necessary where permitted by the CRO.
++ All allegations shall be kept strictly confidential by all involved parties
+  until a decision has been rendered and publicized by the EC.
++ The EC reserves the right to dismiss any allegation which causes reasonable
+  suspicion that the allegation was made frivolously or vexatiously or for
+  purposes that violate, in letter or spirit, any portion of this procedure.
++ Any candidate, campaign team, or referendum committee may file a grievance
+  against the EC or the CRO alleging failure to enforce procedure and uphold and
+  apply rules fairly and equitably to MathSoc Council, who will hear and render
+  a decision on the grievance before the election or referendum result is
+  ratified.
 
-Once a campaigning committee has been formed, a member may resign from one of the campaigning committees by submission to a member of the Elections Committee.
-A member may be removed at the Elections Committee’s discretion upon receiving a written request from all other members of the campaigning committee.
-The Elections Committee shall keep a public and current list of members of the campaign committees, and inform all members of a campaign committee as soon as that committee's membership changes.
+=== Decisions On Allegations
+The EC or CRO shall separately inform the complainant and the respondent of
+their decision within two (2) hours of having made said decision, and shall make
+accessible to all members of MathSoc Council all documents associated with that
+particular allegation, and the rationale behind the ruling. The EC has the right
+to withhold any documents or proof that they feel might cause harm to someone by
+unanimous consent of the EC.
 
-No member of a campaign committee shall engage in any form of campaigning contrary to the established opinion, for or against, of that committee.
-Members of a campaigning committee shall generally be under the same rules as candidates in an election.
+=== Appealing EC's Decision
++ After receiving the decision of the EC, the respondent or complainant may
+  appeal the decision of EC to the council by submitting in writing to the CRO
+  and the Speaker of Council.
+  + Appeals must be submitted within twenty-four (24) hours of receiving notice
+    of the decision of the EC or within two (2) hours of the end of the polling
+    period. Any appeals submitted after this deadline will be considered for
+    review at the discretion of the CRO.
+  + Appeals shall be kept strictly confidential by all involved parties until a
+    decision has been rendered and publicized by the CRO.
++ A decision of the EC shall be considered appealable if the appellant, which
+  must either be the complainant or respondent named in the original allegation,
+  is able to reasonably establish any or all of the following:
+  + There is evidence that a set of procedural errors were made that were
+    significant enough to alter the final decision made by the CRO.
+  + There is reasonable belief that portions of this procedure have been
+    improperly applied in letter or spirit.
+  + There is reasonable suspicion of bias during any portion of the
+    decision-making process.
+  + There is new information relevant to the original allegation that was not
+    originally discovered or presented, especially pieces of information that
+    could alter the final decision.
+  + That the determined penalty exceeds the nature of the violation or offence.
+  + That inadequate consideration was given to the provided evidence.
+  + If a complaint was dismissed as frivolous or vexatious and the appellant
+    believes themselves to have a reasonable case.
++ The appellant must include in their appeal, the following information:
+  + All relevant case information, such that the CRO or EC, as the case may be,
+    will be able to accurately identify the allegation in question.
+  + A description of and the reasoning for appeal, including grounds for appeal.
+  + A description of what the appellant(s) are seeking.
+  + All relevant documentation to supplement or support the above.
++ The CRO shall immediately notify the EC, the respondent, the complainant, and
+  the Speaker of Council that an appeal has been received.
++ Within forty-eight (48) hours of receiving the appeal, or twenty-four (24)
+  hours after the end of the polling period, the CRO or EC, as the case may be,
+  shall make its decision. The Council may, in consideration of all evidence
+  gathered and presented, do any of the following:
+  + Uphold the original decision
+  + Alter the penalty of the original decision, within the limits of this
+    procedure
+  + Overturn the decision and present an alternate ruling, thereby eliminating
+    the decision's penalties so received
++ All rulings rendered by Council shall be final.
++ Notwithstanding any provisions within this section, the EC shall be empowered
+  to initiate a review of any decision of the CRO at any time until the
+  conclusion of the electoral event.
 
-The Elections Committee may call meetings of the campaigning committees, if necessary.
+=== After Election
+If a candidate feels that they have been unfairly treated by the Elections
+Committee, or has an issue to raise after the voting period, then the complaint
+shall be submitted in writing to the President up to two business days after the
+voting period. The President shall raise each such complaint at the next meeting
+of Council for Council to decide upon prior to ratifying the election results.
 
-\subsubsection{Expenses Limit}
+=== Barring Members from Candidacy
+This procedure is intended only to be used in extreme cases where
+disqualification from one election is deemed insufficient or ineffective.
+
+A member may be barred from candidacy in elections during the current term and
+following two terms under the following conditions:
++ The candidate has been disqualified from any election, prior or current term,
+  for violations of election procedure;
++ The Elections Committee recommends unanimously to Council that the member be
+  considered for being barred from candidacy;
++ The member has been notified that Council will consider to bar them from
+  candidacy at an upcoming meeting, and has been informed of the meeting with at
+  least five days notice; and,
++ Council votes at this meeting, by a $3/4$ majority in a secret ballot, to bar
+  the member from candidacy as stated above.
+A decision to bar a member from candidacy must be published on the Society
+website.
+
+In the case that a member is barred from candidacy in elections as described
+above, they may appeal to the Federation of Students no more than once while the
+bar is active by notifying the President of the Federation, the Speaker of
+Council, and the Elections Committee. The barred member may present their case
+to the Federation's board of directors. The Elections Committee, or a subset
+thereof, must present the case for upholding the bar. Following discussion, the
+board must vote by secret ballot whether to overturn the Society's prior
+decision, which may be done by a simple majority.
+
+== Ratification <policy>
+The Elections Committee shall report to Council the outcome of each election for
+ratification. If Council finds that there has been an irregularity in the
+election, it may invalidate the election, in whole or in part, and require that
+it be held again from any point. Otherwise, the election results as approved by
+Council are final.
+
+In the event that Council is unable to meet to receive the Elections Committee's
+report, then the Executive Board along with the Speaker of Council and the Chair
+of the Board of Directors may receive the report as well as any appeals received
+by the President and act on it then in Council's stead.
+
+== Referendum Procedure <policy>
+Except as noted in this section, a referendum shall be governed by the same
+rules as an election, _mutatis mutandis_.
+
+=== Petitions
+When a petition for a referendum is received, it shall be verified by the
+Elections Committee, which Council shall appoint if necessary. If the petition
+is determined to be invalid, the Elections Committee shall return it to the
+submitter with an explanation of why it was deemed invalid.
+
+A petition for a referendum on a nonsensical or useless resolution shall not be
+accepted. If a petition contains multiple resolutions, some of which are
+nonsensical or useless, the petition shall still be accepted for the remaining
+resolution or resolutions.
+
+=== Schedule
+When a referendum is to be held, the Elections Committee or Council shall set
+the schedule. A referendum shall consist of three phases:
++ The campaigning committees formation period, which shall contain at least 5
+  business days;
++ An all-committees meeting, which shall occur one and two business days after
+  the end of the nomination period, at which all referendum campaigning
+  committee members or a proxy of whom must be present unless excused by the
+  Elections Committee;
++ The campaign period, which shall contain at least 5 business days, normally
+  starting the business day immediately after the all-committees meeting but
+  starting up to three business days after the all-committees meeting in special
+  circumstances; and
++ The voting period, which shall contain 2 to 5 business days, and begin on the
+  business day immediately following the campaign period.
+
+=== Referenda Campaigning Committees
+Any voting member, except a member of the Elections Committee, may nominate
+themselves to join one of the referendum campaigning committees by submission to
+the Elections Committee and providing all of the following:
++ The name, userid, and contact information of the nominee;
++ A signed statement of the nominee agreeing to follow the referenda procedure;
++ The referendum option for which the nominee wishes to join the referendum
+  campaigning committee.
+
+A nomination may be voluntarily withdrawn by a candidate at any time prior to
+the all-committees meeting by written submission directly to a member of the
+Elections Committee. No one shall nominate themselves to be a member of both
+campaigning committees for a referendum.
+
+On the business day after the committee formation period ends, the Elections
+Committee shall select members to form the campaigning committees for each
+referendum option from those who submitted a nomination to join one of the
+campaigning committees. Each referendum campaigning committee shall consist of
+at most five members. All selected members to the referendum campaigning
+committees shall be informed of their membership before the mandatory
+all-committees meeting.
+
+Once a campaigning committee has been formed, a member may resign from one of
+the campaigning committees by submission to a member of the Elections Committee.
+A member may be removed at the Elections Committee’s discretion upon receiving a
+written request from all other members of the campaigning committee. The
+Elections Committee shall keep a public and current list of members of the
+campaign committees, and inform all members of a campaign committee as soon as
+that committee's membership changes.
+
+No member of a campaign committee shall engage in any form of campaigning
+contrary to the established opinion, for or against, of that committee. Members
+of a campaigning committee shall generally be under the same rules as candidates
+in an election.
+
+The Elections Committee may call meetings of the campaigning committees, if
+necessary.
+
+=== Expenses Limit
 The expenses by the members of each committee shall total no more than \$100.
 The individual members of the committee shall be reimbursed for their expenses.

@@ -1,27 +1,26 @@
-\section{Clubs Policy}
-\emph{effective October 3, 2024; replaces previous versions}
-\subsection{Overview}
+#counter(heading).update(5)
+= Clubs Policy <policy>
+_effective October 3, 2024; replaces previous versions_
+
+== Overview <policy>
 This policy governs all clubs under the aegis of MathSoc. MathSoc establishes
 clubs to promote social and academic relations inside programs and/or
 departments, inside the Faculty. All clubs are expected to abide by legitimate
 decisions of MathSoc and of Council, and MathSoc provides resources to the clubs
 in return.
 
-The resources and status provided to a club are not a right, but a privilege.
-As such, it is in MathSoc's discretion to continue or discontinue support and/or
+The resources and status provided to a club are not a right, but a privilege. As
+such, it is in MathSoc's discretion to continue or discontinue support and/or
 recognition.
 
-\subsubsection{Establishment of New Clubs}
+=== Establishment of New Clubs
 Members seeking to establish a new club under MathSoc shall submit the following
 to the Vice President, Internal, who shall present the petition to Council:
-
-\begin{itemize}
-  \item A contact email for the club;
-  \item A constitution for the proposed club;
-  \item A current list of executive officers and members for the proposed club;
-  \item The signature of a professor or professors who advises for the
-	  program(s), sponsoring the establishment of a club for that program.
-\end{itemize}
+- A contact email for the club;
+- A constitution for the proposed club;
+- A current list of executive officers and members for the proposed club;
+- The signature of a professor or professors who advises for the program(s),
+  sponsoring the establishment of a club for that program.
 
 Upon request of a group seeking recognition for a new club for a program that
 does not currently have a club, the Vice President, Internal shall assist the
@@ -37,7 +36,7 @@ The Executive may exempt a newly-created club from deadlines outlined in this
 policy in the term of their creation, as is appropriate to allow the club to
 establish itself.
 
-\subsubsection{Constitution Requirements}
+=== Constitution Requirements
 If a club is to have any affiliation with any organization outside of the
 University, this must be stated clearly in the constitution of the Club.
 
@@ -53,7 +52,10 @@ restrict it to the same, unless it is affiliated (or seeking affiliation) with
 another organization, in which case it may also allow full membership to be
 available to members of that organization. A club may have other forms of
 membership open to the University community. A club must restrict the privileges
-to vote and hold executive positions to full members. Further, two thirds of the executive positions of the club must be occupied by Math students, i.e., voting members of the Society. A club must not practice discrimination in its acceptance of members or of executive.
+to vote and hold executive positions to full members. Further, two thirds of the
+executive positions of the club must be occupied by Math students, i.e., voting
+members of the Society. A club must not practice discrimination in its
+acceptance of members or of executive.
 
 A club must elect its executive officers for a given term no later than the
 third week of that term.
@@ -61,7 +63,7 @@ third week of that term.
 In the event of any conflict between a decision of MathSoc, including a policy,
 and the constitution of a club, the decision of MathSoc shall prevail.
 
-\subsubsection{Discipline}
+=== Discipline
 Clubs are expected to behave as upstanding members of the University community
 and to contribute to the purposes of the Society. Failure to do so may
 constitute grounds for sanction by MathSoc.
@@ -79,18 +81,18 @@ given to the club executive directly as well as to Council, except for at the
 meeting mentioned above with respect to clubs that have been on probation since
 the start of the term.
 
-Additionally, if a club is on probation then any club executives who continue
-to violate any of MathSoc's policies may be removed from their positions by a
-two thirds majority vote of Council, and Council may appoint or organize
-elections for a replacement. Any individuals who were removed from their club
-executive positions this way shall not be eligible to be a club executive for
-that club for the duration of the term.
+Additionally, if a club is on probation then any club executives who continue to
+violate any of MathSoc's policies may be removed from their positions by a two
+thirds majority vote of Council, and Council may appoint or organize elections
+for a replacement. Any individuals who were removed from their club executive
+positions this way shall not be eligible to be a club executive for that club
+for the duration of the term.
 
 Additionally, as outlined elsewhere in this policy, a club may have its funding
 withheld as a consequence of failing to meet a deadline or failing to follow any
 decisions of MathSoc, including a policy.
 
-\subsubsection{Disbandment}
+=== Disbandment
 A club may be disbanded by Council. Such a decision requires notice, given to
 the club executive directly as well as to Council, and a two-thirds vote. A club
 will normally only be disbanded for continuing to violate policies or other
@@ -99,15 +101,15 @@ be made by Council in its sole discretion at any time. A decision to disband a
 club is not effective until the end of the Council meeting after it is adopted,
 and becomes final at that time.
 
-In the event that a club is disbanded, its assets shall be transferred to MathSoc.
-However, if the club's constitution says otherwise, then Council must consider
-instead transferring some or all of its assets according to the club's
+In the event that a club is disbanded, its assets shall be transferred to
+MathSoc. However, if the club's constitution says otherwise, then Council must
+consider instead transferring some or all of its assets according to the club's
 constitution.
 
-\subsection{Operations}
-\subsubsection{Events}
+== Operations <policy>
+=== Events
 All club events shall have event forms filed with the Federation. In accordance
-with the Societies Agreement, clubs must receive approval for their events.  The
+with the Societies Agreement, clubs must receive approval for their events. The
 Vice-President, Internal and the Clubs Director shall assist clubs in filing
 event forms and securing approval for events.
 
@@ -115,20 +117,20 @@ All promotional material for events must include MathSoc's logo.
 
 A social event is an event with negligible academic purpose.
 
-\subsubsection{Meetings}
+=== Meetings
 Clubs must hold meetings at least once a term. The President and the Vice
 President, Internal shall be permitted to attend all club meetings.
 
-\subsubsection{Records}
+=== Records
 A copy of the club constitution, a membership list, and all financial records
-must be provided to the Vice President, Internal or Vice President, Finance
-upon request. If a club fails to do so within one week of the request, the
-club's funding shall be withheld until it provides the requested records.
+must be provided to the Vice President, Internal or Vice President, Finance upon
+request. If a club fails to do so within one week of the request, the club's
+funding shall be withheld until it provides the requested records.
 
-A Club shall provide a copy of its membership list to MathSoc following the
-last event of each term for financial calculations. Any members who join after
-this shall not be counted towards the number of club members for the purposes
-of calculating the club's social events cap in the next term.
+A Club shall provide a copy of its membership list to MathSoc following the last
+event of each term for financial calculations. Any members who join after this
+shall not be counted towards the number of club members for the purposes of
+calculating the club's social events cap in the next term.
 
 Along with its budget each term, a club shall submit a contact email, a list of
 its executive members, and a list of the events it intends to run in that term.
@@ -138,7 +140,7 @@ constitution to the Vice President, Internal. If it has previously provided a
 link to an online copy, it must inform the Vice President, Internal that the
 constitution has been updated.
 
-\subsubsection{Internal Discipline}
+=== Internal Discipline
 If a club engages in any process of internal discipline, including removing an
 executive from office or barring an individual from its office, it shall inform
 Council of the situation.
@@ -147,7 +149,7 @@ If a club's constitution does not provide for disciplinary measures, then any
 club executive may apply to Council to have one of its executive removed from
 office or to expel a member of the club.
 
-\subsubsection{Council}
+=== Council
 Clubs are expected to have representation at each meeting of Council, and it is
 a club's responsibility to ensure that it has a representative at each meeting
 so as to be informed of changes and to debate any motions that may arise.
@@ -162,18 +164,18 @@ otherwise, use or share the club president's speaking turns on any business. If
 the club president has speaking rights for another reason, they may speak with
 those rights in addition to sharing their rights as president.
 
-\subsection{Finances}
-\subsubsection{Budget}
+== Finances <policy>
+=== Budget
 Each term, no later than the end of the third week of term, a club shall submit
 a budget for the term to MathSoc. The budget must outline the club's expected
 spending for the term. The budget must be accompanied by the records specified
 elsewhere in this policy.
 
-A club's social events cap is $\max(M(5 + .3F), 250) + R$ where $M$ is the
-number of club members who are also MathSoc social members, $F$ is the
-club's membership fee, and $R$ is any external revenues being used to fund
-social events. All expenses of a club that are approved by Council are
-eligible for reimbursement unless otherwise directed by Council.
+A club's social events cap is $max(M(5 + .3F), 250) + R$ where $M$ is the number
+of club members who are also MathSoc social members, $F$ is the club's
+membership fee, and $R$ is any external revenues being used to fund social
+events. All expenses of a club that are approved by Council are eligible for
+reimbursement unless otherwise directed by Council.
 
 A club may not spend more on social events each term than its social events cap.
 If a club's membership increases over the course of the term, it may request
@@ -187,7 +189,23 @@ events than academic events. If a club's actuals repeatedly have less spending
 on academic events than social events, then the Vice President, Finance shall
 bring the matter to Council.
 
-A club’s budget must outline general areas of income and spending. Each social event must appear as a separate line item. Council may amend the budget as it sees fit before approving it. Before the central budget meeting, a club may, for the purpose of a beginning-of-term social event, be allocated $\min[\max(\$250, \min[\$500, \text{lowest of last three social caps}])$, $\text{last year's corresponding }$ $\text{term BOT social event amount}]$, conditional on the approval of the Vice-President, Finance and the Business Manager. Each such allocation must be reported to Council at the soonest meeting thereafter along with explanations for the approved amounts. 
+A club's budget must outline general areas of income and spending. Each social
+event must appear as a separate line item. Council may amend the budget as it
+sees fit before approving it. Before the central budget meeting, a club may, for
+the purpose of a beginning-of-term social event, be allocated:
+
+$
+  & min(
+      &&\
+      &&&max(\$250, min(\$500, #text[Lowest of last three social caps])), \
+      &&&#text[Last year's corresponding term BOT social event amount] \
+      &
+    )
+$
+
+conditional on the approval of the Vice-President, Finance and the Business
+Manager. Each such allocation must be reported to Council at the soonest meeting
+thereafter along with explanations for the approved amounts.
 
 If a club fails to submit its complete budget package on time, its package shall
 not be considered at the budget meeting, even if submitted before the meeting,
@@ -198,33 +216,49 @@ term, it shall be put on probation.
 Clubs are permitted to spend \$80 (or more, if part of their budget request) per
 term for recruitment and elections.
 
-Clubs may not spend more than \$50 of MathSoc funding not received from external funding sources (such as the Mathematics Endowment Fund) on gift cards per club event.
+Clubs may not spend more than \$50 of MathSoc funding not received from external
+funding sources (such as the Mathematics Endowment Fund) on gift cards per club
+event.
 
-A club’s Executive Teambuilding Expense allocation is $\min((25+M\cdot F\cdot 2\%)\cdot \min(E,6), 300)$ where $M$ is the number of club members who are also MathSoc social members, $F$ is the club’s membership fee and $E$ is the number of principle executives reported to the VPI through executive membership list at the beginning of term. This expense may be used at the discretion of the club’s executive team for any purpose related to executive teambuilding, transition, or wellness during the term. All financial policies (notably Policy 20.4, 20.6 and 30) must still be followed when requesting reimbursement. The Teambuilding Expense is a standalone expense and cannot be reallocated into or carried over and can only be recalculated due to updated membership numbers throughout the term.
+A club's Executive Teambuilding Expense allocation is
+$min((25+M dot F dot 2%) dot min(E, 6), 300)$ where $M$ is the number of club
+members who are also MathSoc social members, $F$ is the club's membership fee
+and $E$ is the number of principle executives reported to the VPI through
+executive membership list at the beginning of term. This expense may be used at
+the discretion of the club's executive team for any purpose related to executive
+teambuilding, transition, or wellness during the term. All financial policies
+(notably Policy 20.4, 20.6 and 30) must still be followed when requesting
+reimbursement. The Teambuilding Expense is a standalone expense and cannot be
+reallocated into or carried over and can only be recalculated due to updated
+membership numbers throughout the term.
 
-\subsubsection{Management of Funds}
+=== Management of Funds
 A club's funds will be managed by MathSoc.
 
-For purchases greater than \$500, the Vice President, Finance shall assist the clubs, if needed,
-arranging for the purchase to be paid directly rather than by reimbursement.
-Small expenses shall normally be reimbursed. All expenses for a club must be
-signed off on by one of the club's signing authorities. If a club's funding is
-being withheld, no expenses or reimbursements shall be paid for that club.
+For purchases greater than \$500, the Vice President, Finance shall assist the
+clubs, if needed, arranging for the purchase to be paid directly rather than by
+reimbursement. Small expenses shall normally be reimbursed. All expenses for a
+club must be signed off on by one of the club's signing authorities. If a club's
+funding is being withheld, no expenses or reimbursements shall be paid for that
+club.
 
-% Crafted with <3 by a number of accounting students
-Reimbursements must be requested in the term that the expense is budgeted. 
-An arrangement to submit the request in a future term should be made with
-the Vice President, Finance if:
-\begin{itemize}
-	\item an expense is payable on or after the first day of the final exam period;
-	\item a reimbursement will be received after the first day of the final exam period; or
-	\item an expense has been made but a reimbursement will be submitted in a 
-	future term (due to time or resource constraints).
-\end{itemize}
+Reimbursements must be requested in the term that the expense is budgeted. An
+arrangement to submit the request in a future term should be made with the Vice
+President, Finance if:
+- an expense is payable on or after the first day of the final exam period;
+- a reimbursement will be received after the first day of the final exam period;
+  or
+- an expense has been made but a reimbursement will be submitted in a
+future term (due to time or resource constraints).
 
-Club account balances will be cleared at the start of each term. Each club shall have access to its own financial records at any time, regarding expenditures and income. 
+Club account balances will be cleared at the start of each term. Each club shall
+have access to its own financial records at any time, regarding expenditures and
+income.
 
-The club may carry a cash float to collect club membership fees and sales, if applicable. 
-The club shall reconcile their cash float with the MathSoc VPF at the end of each term and all money is to be deposited into the Society's bank account by the MathSoc VPF. 
+The club may carry a cash float to collect club membership fees and sales, if
+applicable. The club shall reconcile their cash float with the MathSoc VPF at
+the end of each term and all money is to be deposited into the Society's bank
+account by the MathSoc VPF.
 
-Expenditures and income from and to the club shall be applied directly to the club's account. 
+Expenditures and income from and to the club shall be applied directly to the
+club's account.

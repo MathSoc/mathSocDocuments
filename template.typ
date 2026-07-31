@@ -59,19 +59,20 @@
   // List and Numbered List settings
   set list(
     spacing: 1em,
-    indent: 1em
+    indent: 1em,
   )
 
   set enum(
     spacing: 1em,
-    indent: 1em
+    indent: 1em,
+    numbering: "1.a.",
   )
 
   // Definitions List settings
   set terms(
     separator: [#linebreak()],
     hanging-indent: 3em,
-    spacing: 1.5em
+    spacing: 1.5em,
   )
 
   body

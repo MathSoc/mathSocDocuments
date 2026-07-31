@@ -1,3 +1,3 @@
-\newRescinded{External Funding Committee}{rescinded March 7, 2019}
-%\section{External Funding Committee}
-%rescinded March 7, 2019
+#counter(heading).update((1, 4))
+== External Funding Committee
+Rescinded March 7, 2019

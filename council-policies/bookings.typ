@@ -1,7 +1,6 @@
-\newRescinded{Lounge and Hallway Bookings}{rescinded July 17, 2018}
-%\section{Lounge and Hallway Bookings}
-%rescinded July 17, 2018
+#counter(heading).update((1, 2))
+== Lounge and Hallway Bookings
+Rescinded July 17, 2018
 
-\newRescinded{Equipment Bookings}{rescinded July 17, 2018}
-%\section{Equipment Bookings}
-%rescinded July 17, 2018
+== Equipment Bookings
+Rescinded July 17, 2018
