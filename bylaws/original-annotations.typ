@@ -59,11 +59,6 @@
   At time of writing, MathSoc is undeniably in a stage of crisis. Our elections
   have become uncompetitive and engagement has reached never before seen lows.
   Still, we do our best to adhere to our founding principles and object.
-
-  Most recently we have been trying to push forwards a rewrite of most of our
-  constitutional documents. While the objectives and purpose of MathSoc remains
-  the same, unwavering as it always has, I hope that these changes one day wll
-  help MathSoc serve its purpose better than ever before.
 ]
 
 == Definitions
