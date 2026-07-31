@@ -1,0 +1,3 @@
+\newRescinded{External Funding Committee}{rescinded March 7, 2019}
+%\section{External Funding Committee}
+%rescinded March 7, 2019

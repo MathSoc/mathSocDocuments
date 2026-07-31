@@ -1,0 +1,3 @@
+\newRescinded{Council Attendance}{rescinded April 4, 2019; replaces March 7, 2019}
+%\section{Council Attendance}
+%rescinded April 4, 2019; replaces March 7, 2019

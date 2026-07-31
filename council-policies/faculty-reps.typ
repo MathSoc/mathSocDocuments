@@ -1,0 +1,4 @@
+\section{Faculty Representative Appointments}
+\emph{effective September 12, 2024; replaces January 31, 2023}\\
+
+Often, faculty or departments of the University will ask MathSoc for undergraduate student representatives to appoint to various committees and councils. These representatives shall be chosen by the Vice-President, Academic, in consultation with the relevant program representatives on MathSoc Council. The term of these selected representatives shall be maximally three terms, or until their resignation, as the Faculty permits.

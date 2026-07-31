@@ -1,0 +1,3 @@
+\newRescinded{The Coffee \& Donut Shop}{rescinded July 17, 2018}
+%\section{The Coffee \& Donut Shop}
+%rescinded July 17, 2018
