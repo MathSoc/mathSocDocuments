@@ -1,6 +1,6 @@
 #counter(heading).update(9)
-= General Meetings
-== Convocation
+= General Meetings <bylaw>
+== Convocation <bylaw>
 General meetings of the Society may be called by any of the following:
 + The President;
 + Council;
@@ -35,11 +35,11 @@ Prior to 5 business days to the meeting, items can be added to the agenda by
 + by the Board of Directors,
 + or by any twenty five voting members upon petition in writing.
 
-== Members
+== Members <bylaw>
 All voting members are entitled to participate at general meetings. All other
 members of the society are entitled to participate in a non-voting capacity.
 
-== Proxies
+== Proxies <bylaw>
 Each member is entitled to designate anyone as a proxy to participate in their
 place at a general meeting. No person may be proxy for more than one principal
 at the same meeting. Proxies shall be submitted in writing to the President at
@@ -51,10 +51,10 @@ rights they may already have as a member. This may entitle them to two votes or
 double the usual speaking time. A proxy shall use the rights conferred in this
 fashion as directed by the principal.
 
-== Quorum
+== Quorum <bylaw>
 25 votes, counting proxies, constitute a quorum.
 
-== Powers
+== Powers <bylaw>
 A general meeting has full power over the Society and its affairs, except as
 limited by this document or by a decision made by referendum or at a general
 meeting.
