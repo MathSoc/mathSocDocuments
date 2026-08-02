@@ -1,0 +1,293 @@
+#counter(heading).update(6)
+= Council <bylaw>
+== Purpose <bylaw>
+The purpose of Council is to represent the members of the Society through the
+general oversight of the Mathematics Society's Executive Officers, to determine
+member priorities with respect to the expenditure of dues, to set advocacy
+priorities, and to establish long-term goals and vision.
+
+== Composition <bylaw>
+The Society Council's is comprised of up to thirty-six voting members:
++ The Executive Officers, as defined in this document; and
++ Up to thirty Representatives, allocated as described below.
+
+Additionally, there are non-voting members of Council:
++ The Officers of the Mathematics Society, as defined elsewhere in this
+  document;
++ The Secretary of Council;
++ The chairs of any committees or boards established by the Society or by
+  Council;
++ Any volunteers or executive assistants appointed by decision of the Society;
++ The editors of math#strong[NEWS];
++ The undergraduate student Senators representing the Faculty and undergraduates
+  at-large;
++ The Dean of the Faculty, or designate;
++ The President of a club under the aegis of MathSoc.
+
+If a person qualifies as both a voting and non-voting member of Council, then
+they are a voting member.
+
+== Representative Allocation <bylaw>
+Each Representative on Council shall represent a single constituency from the
+following, determined by reference to the Faculty's undergraduate calendar. For
+the purposes of determining if a student is in a program, minors and options are
+not counted unless explicitly mentioned. A student may be counted in more than
+one constituency. Notwithstanding anything else in this section, in Fall and
+Winter terms, if a student is counted in the First Year constituency, then they
+are counted in no other constituency. In Spring terms, if a student would be
+counted in the First Year constituency then they are instead counted only in the
+At-large constituency.
+
+When multiple elections are held simultaneously, a voter in multiple
+constituencies may cast a vote for Representatives for any of their
+constituencies in any election.
+
+The constituencies are:
++ First Year, consisting of all math students registered as first-year with the
+  University, except for those in the Software Engineering program;
++ Actuarial Science, consisting of all math students in Actuarial Science or
+  Mathematical Finance programs;
++ Statistics, consisting of all math students in Statistics programs;
++ Pure Mathematics, Applied Mathematics, and Combinatorics and Optimization,
+  consisting of all math students in Pure Mathematics, Applied Mathematics,
+  Combinatorics and Optimization, Mathematical Finance, or Computational
+  Mathematics programs;
++ Computer Science, consisting of all math students in programs offered by the
+  David R. Cheriton School of Computer Science, as well as all students in
+  Computational Mathematics programs;
++ Business, consisting of all math students in Mathematics/Business programs, as
+  well as all students in the Business Administration and Computer Science
+  Double Degree program;
++ Computing and Financial Management, consisting of all math students in the
+  Computing and Financial Management program;
++ Software Engineering, consisting of all math students in the Software
+  Engineering program;
++ Teaching, consisting of all math students in the Mathematics/Teaching program;
+  and
++ Mathematical Studies and Other, consisting of all math students in
+  Mathematical Studies programs and all math students not counted in one of the
+  other constituencies.
++ At Large, consisting of all math students.
+
+At the beginning of each Fall term, the Board of Directors shall obtain
+enrollment numbers from the University and determine the allocation of the
+thirty Representative seats to constituencies. First, they will calculate the
+allocation of the seats by using the method of equal proportions described in
+the appendix (hereinafter referred to as the "unadjusted allocation"). If using
+this allocation would result in the number of First Year seats being reduced
+from the previous allocation, a new allocation (the "adjusted allocation") will
+be calculated by leaving the number of First Year seats unchanged from the
+previous allocation and allocating the remaining seats to constituencies using
+the method of equal proportions. If the adjusted allocation is calculated, it
+will be used for the Winter term. Otherwise, the Winter term allocation will be
+the unadjusted allocation. The unadjusted allocation will always be used for the
+Spring and Fall term.
+
+The results of the allocations shall be presented for information at the Fall
+General Meeting.
+
+The allocations determined will be used in the subsequent General Election and
+future by-elections, as needed, to elect the student representatives on Council.
+For each constituency which is voted for in the General Election, if after the
+General Election no seats are elected in that constituency all but one seat will
+be added to the At Large allocation for that term. Otherwise, for each
+constituency which is voted for in the General Election all remaining seats will
+be added to the At Large allocation for that term. For greater certainty, no At
+Large Representative is elected during the General Election in Fall and Winter
+terms. In Spring terms the seats allocated to the First Year constituency shall
+be instead allocated to the At Large constituency for the General Election of
+that term.
+
+All Councillors will be elected in accordance with the procedure outlined
+elsewhere in this document with the exception of the constituencies below.
+
+=== Software Engineering Representatives <bylaw>
+At the start of each term, the students in each on-stream Software Engineering
+class shall elect members of their class to serve as Software Engineering
+Representatives for the term, in accordance with the usual process of election
+of class representatives in the Faculty of Engineering. The available seats
+shall be divided evenly between the classes to elect, with any extra seats going
+first to lower-year classes. In the Spring term, seats shall be allocated as if
+there is a first-year class, but the first-year seats shall remain vacant.
+
+In the event that there are more on-stream Software Engineering classes than
+Software Engineering seats on Council, the lower-year classes shall be given
+seats first.
+
+=== First Year Representatives <bylaw>
+First Year Representatives shall be elected before October 15th of the same
+year.
+
+First Year Representatives shall be elected in accordance with the election
+procedures of the Society in all other aspects.
+
+=== At Large Representatives <bylaw>
+At Large Representatives shall be elected during the by-election if seats for
+this constituency are available.
+
+== Terms of Office <bylaw>
+Councillors other than First Year Representatives shall be elected for a term in
+office that ends in concert with the school term as defined elsewhere in this
+document.
+
+First Year Representatives shall be elected until the end of the Winter term
+following their election.
+
+Councillors or Councillors-elect can resign by written submission to the rest of
+Council.
+
+== Eligibility Requirements <bylaw>
+In order to run for or serve as a Representative, a member must be in the
+constituency of their seat or show proof that they intend to register in their
+constituency in their term of office.
+
+If a Councillor or Councillor-elect fails to meet these requirements, then they
+do not lose their seat automatically, but may be removed from their seat by a
+majority vote of Council.
+
+No member shall occupy more than one voting seat on Council in the same term
+simultaneously, but a member may run simultaneously for one Executive seat and
+one Representative seat in the same term, and a member in a Representative seat
+in a given term may run in a by-election for an Executive seat in that same
+term.
+
+== Duties & Powers <bylaw>
+Council is responsible to uphold the purposes of the Society and to ensure that
+the Society is not abused. It is responsible to hold the Executive and any other
+persons involved in Society affairs to account, and the Representatives are
+responsible for voicing the concerns and issues of their constituents and,
+indeed, to represent them.
+
+Council has full power to determine student priorities regarding the general
+expenditure of members' dues, to establish student perspective on all matters in
+relation to post-secondary education, and to set the Policies of the Society.
+
+Without restricting the generality of the above, Council is expressly empowered
+to:
++ Receive regular reports from, and provide regular feedback to the Executives;
++ Prepare the termly budget, in so far as the budget pertains to the expenditure
+  of members' dues, and exempting those portions of the budget restricted by the
+  Board of Directors;
++ Establish procedures regarding the formation, administration, discipline, and
+  disbandment of all Society Clubs and Services;
++ Delegate representatives to serve on bodies outside the University;
++ Establish joint committees and councils with the University;
++ Establish such committees and procedures as required for the conduct of its
+  business, including those that define elections and referenda processes; and,
++ Make recommendations to the Board of Directors on any matter pertaining to the
+  affairs of the Society.
+
+Council is a fully-constituted assembly in its own right, and does not report to
+general meetings, though it is accountable to them and to the members of the
+Society at large.
+
+=== Limitations on Power <bylaw>
+Council may not make any decision contrary to this document or a resolution
+passed at a general meeting or by a referendum, unless the limiting resolution
+would present a strong risk of imminent dissolution.
+
+== Duties of Councillors <bylaw>
+Councillors must, in addition to what is otherwise set out in the by-laws, the
+policies, and the procedures of the Society:
++ Maintain at least one public office hour per week and shall inform their
+  constituents of when they are available;
++ Attend Council meetings regularly;
++ Attend all general meetings;
++ Actively engage and consult with students regarding the undergraduate math
+  student experience;
++ Report on any relevant updates and activities within their constituency; and,
++ Report on consultation efforts with their constituents, and the results
+  thereof.
+
+If a Councillor misses or is more than one half-hour late for a meeting, that
+Councillor shall be deemed delinquent for that meeting. If a Councillor is
+delinquent for three or more meetings in a given term, then that Councillor may
+be removed from that or any other seat on Council for the given term and
+following two terms by majority vote with notice.
+
+== Convocation <bylaw>
+Meetings of Council may be called by any of the following;
++ The President;
++ The Speaker of Council;
++ The Board of Directors;
++ Any three voting members of Council, upon petition in writing;
++ Any twenty-five voting members of the Society, upon petition in writing; or
++ The Dean or their designate.
+
+During the period of classes in each term, Council shall meet no less than once
+every three weeks.
+
+== Notice <bylaw>
+Notice of the meeting time and location must be provided at least five (5)
+business days in advance of any meeting to every voting member of Council unless
+that member explicitly waives their right to notice before the start of the
+meeting.
+
+Where notice is required of a motion, notice of that motion must be provided at
+least seven days in advance of the meeting at which the motion is to be
+considered to every voting member of Council unless that member explicitly
+waives their right to notice before the start of the meeting at which the motion
+is moved.
+
+The full agenda, including a full description of the intended motion, such as
+the text of a proposed amendment or agreement, must be provided no less than 72
+hours before the meeting, but the motion may be amended before or after it is
+moved as long as the changes remain within the scope of the motion for which
+notice was given.
+
+Council may designate a mailing list or similar forum to be the official notice
+forum of Council; if this is done, then any notice sent to that forum is
+considered to have been sent to every voting member of Council regardless of
+whether or not it was received by that member.
+
+== Quorum <bylaw>
+Two-fifths of all voting members of Council shall constitute a quorum.
+
+== Sessions <bylaw>
+For greater certainty, each meeting as called in accordance with this document,
+plus its adjournments, constitute a single session of Council.
+
+== Speaker & Secretary of Council <bylaw>
+The Speaker of Council and the Secretary of Council shall be appointed by
+Council.
+
+At any time when there is no Speaker, the President shall have the powers and
+duties of the Speaker, as appropriate. At any time when there is no Secretary,
+the Secretary of the Society, or designate, shall have the powers and duties of
+the Secretary, as appropriate.
+
+If there is no Speaker and/or no Secretary present, than Council may not proceed
+to any other business until a Speaker and/or a Secretary is appointed.
+
+The term of a Speaker or Secretary of Council shall extend from appointment to
+the end of the current academic term. For greater certainty, the Speaker and/or
+Secretary of Council may resign or be replaced by Council at an earlier time.
+
+=== Duties of the Speaker <bylaw>
+The Speaker has the following duties:
++ Serve as the presiding officer of Council;
++ Work with the Chair of the Board of Directors to interpret this and any other
+  governing documents of the Society, subject to appeal to Council, the Board of
+  Directors, or a general meeting;
++ Arrange for and advertise meetings of Council;
++ Ensure that all Council members have access to the official notice forum, if
+  any;
++ Ensure that Council meetings are called regularly; and
++ Ensure that WUSA general meetings do not occur at the same time as Council
+  meetings, and make a best effort to reschedule any Council meeting should its
+  scheduled time overlap with a WUSA general meeting.
+
+=== Duties of the Secretary <bylaw>
+The Secretary has the following duties:
++ Serve as the secretary of Council;
++ Record attendance of Council meetings, including when a member is more than
+  one half-hour late for a meeting and if they sent notice of their absence;
++ Distribute minutes of each Council or General meeting in a timely manner after
+  that meeting;
++ Report to Council when a Councillor is failing to meet the requirements of
+  office.
+
+== Remuneration of Councillors <bylaw>
+Councillors shall not receive monetary remuneration, excluding discounts, for
+serving as such, though they may receive such remuneration for serving as
+officers or employees or in other capacities.
