@@ -8,7 +8,9 @@
 
 #import "../cover-page.typ": cover-page; #cover-page(title: "Bylaws");
 
-#import "../table-of-contents.typ": table-of-contents; #table-of-contents(target-label: <bylaw>)
+#import "../table-of-contents.typ": table-of-contents; #table-of-contents(
+  target-label: <bylaw>,
+)
 
 // Major Headers additionally come with a heading prefix
 #show heading.where(level: 1): set heading(

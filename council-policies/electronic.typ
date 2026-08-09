@@ -1,0 +1,27 @@
+#counter(heading).update(20)
+= Electronic Communication <policy>
+_Effective 2022; replaces December 4, 2002; replaces March 25, 1996_
+
+== Emails <policy>
+Wherever possible, when representing MathSoc, volunteers should use
+\@mathsoc.uwaterloo.ca emails instead of their personal emails.
+
+== MathSoc Mailing Lists <policy>
+The Society may in its operations make use of mailing lists to aid in the
+operations of the Society. Messages to the mailing list should be restricted to
+the mandate of the mailing list. The operator of a MathSoc mailing list may take
+action to ensure that all use of the mailing list is restricted to its mandate.
+
+== MFCF Mailing List <policy>
+The Society has available to it the use of a mailing list for all undergraduate
+students registered in the Faculty of Mathematics, administered by MFCF. The
+following restrictions apply to messages sent via this mailing list: All
+messages must be approved by the President before being submitted for
+distribution. All messages being submitted for distribution must include a note
+at the end of the message giving instructions to students on how to unsubscribe
+from the list. Not more than 2 messages to all undergraduate students shall be
+sent in any one month period. No student should receive more than three messages
+in any one month period. Not more than 5 messages shall be sent in any one month
+period. In addition, messages sent via the mailing list must accommodate any
+requirements of the Dean’s Office or MFCF. In particular, MFCF requires three
+business days from the submission of a message to its distribution.

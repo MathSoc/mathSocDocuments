@@ -1,0 +1,133 @@
+#counter(heading).update(19)
+= Central Budget <policy>
+_Effective March 6, 2024; replaces October 24, 2019; July 18, 2019; July 26,
+2011; March 6, 2007; November 27, 2006_
+
+== Approval of the Budget <policy>
++ The Vice-President, Finance shall present a central budget to Council for
+  approval by the end of the first month of each term. The central budget shall
+  include a statement of accounts held by the society.
++ All budget requests shall be submitted to the Vice-President, Finance no later
+  than the third week of the term.
++ If funding from a previous term was allocated but has not yet been spent, it
+  is forfeit unless mentioned in a budget request for the current term. Council
+  shall not refuse funding on a carry-over item that was allocated in either of
+  the previous two terms, but may choose to reallocate the funds afterwards.
++ First Year Representatives are excused from the first budget meeting of the
+  Fall semester.
++ Once the budget has been approved, changes to the budget may be approved as
+  follows:
+  + In the event that the change is reallocating funds within a section (e.g.
+    Academic Events for one club) without changing the total budget for that
+    section, the written approval of both the Vice-President, Finance and the
+    Business Manager is required. If this approval is not granted, the group
+    requesting the change may appeal to Council for approval.
+  + For any other changes, the approval of Council is required.
+
+== Funding Carry-Over <policy>
++ If funding from a previous term was allocated but has not yet been spent, it
+  is forfeit unless mentioned in a budget request for the current term. Council
+  shall not refuse funding on a carry-over item that was allocated in either of
+  the previous two terms, but may choose to reallocate the funds afterwards.
++ Funds in the Society's main accounts shall be included in the budget in each
+  term as available funds, except for expenses that have been approved but that
+  have not yet been reimbursed.
++ \$10,000 shall be maintained in the Society's main accounts as a float.
+
+== Approval of Expenses <policy>
++ All non-budgeted expenses must be approved by members of the Executive Board
+  or the Society Council as follows.
+  + For expenses of \$100.00 or less, the approval of either the President or
+    Vice-President, Operations, as well as the approval of both the
+    Vice-President, Finance and the Business Manager, is required.
+  + If a non-budgeted expense of \$100 or less is not approved in accordance
+    with 20.3.1 a), the group that incurred the expense may appeal to Council
+    for approval.
++ Budgeted expenditures must be approved by either the President or
+  Vice-President, Operations, as well as by both the Vice-President, Finance and
+  the Business Manager. If budgeted expenditures exceed the budgeted amount,
+  then the amount in excess of the budgeted amount is to be treated as a
+  non-budgeted expenditure.
++ The Vice-President, Finance shall report expenditures over the budgeted amount
+  to Council.
++ No expense shall be approved from a previous term's budget after the budget
+  meeting for a term unless the unallocated funding was reported and approved in
+  the central budget in the current term.
++ For the purposes of this section, any written approval of an expense
+  constitutes approval of that expense. Additionally, an individual's signature
+  on the cheque request form constitutes their approval of the expense.
+
+== Reimbursement <policy>
++ Expenses incurred in the course of organizing, planning, and executing items
+  of business for the Society are recoverable as long as the conditions in
+  policies and processes are met.
++ All expense requests must be accompanied by a receipt and proof of payment to
+  be approved, and all other requirements pertaining to the cheque request
+  process as outlined on the Cheque Request Form must be satisfied.
++ A record of expenditures to be reimbursed are to be submitted to the Executive
+  Board within two weeks following the event. Any time extensions on submissions
+  must be approved, in writing, by the Executive Board. If this is not complied
+  with, the expenditure may not be reimbursed.
++ Amounts expensed and reimbursed must fall within Society budget line items
+  which have been approved before the expense was made. For greater certainty,
+  reallocations of budget must be approved before expenses are made unless an
+  explicit exception has been made beforehand by the Vice-President, Finance.
++ Gas expenses incurred on personal vehicles related to approved club budget
+  line items will be reimbursed based on mileage at the University standard
+  rate, provided that all conditions specified in University Policy 31.4.ii.a
+  are met. Reimbursement must be submitted along with the corresponding event or
+  purchase as outlined in the cheque request process.
+
+== Income <policy>
++ Income earned in the course of executing society business shall be counted and
+  recorded on an appropriate income form and submitted to the VPF.
+
+== Appropriate Use of Funds <policy>
+Events that utilize funds collected or managed by the Society, or any other
+organization directly responsible to the Society to purchase alcoholic beverages
+must be in compliance with University Policy 21 and Society Policy 30.
+
+== Joint Events <policy>
+When Clubs are desirous of splitting event budgets, they must submit a written
+request to council, detailing how funds are to be split, for this event to be
+approved.
+
+== External Funding and Sponsorship <policy>
++ MathSoc Executives and Clubs may apply or seek funding/sponsorship from
+  external sources to help pay for Capital Improvements, projects, or events for
+  the Society or for a Club. All Capital Asset purchases in excess of \$3,000
+  must first be approved by Council prior to applying for funding from an
+  external source, e.g. MEF or SLEF.
++ Once the Executive or Club has received approval for funding from an Endowment
+  or external source, they are required to perform the following steps:
+  + Forward a copy of the email funding approval to Vice-President, Finance and
+    cc Business Manager in this process. An invoice will then be generated by
+    WUSA accounting to request the funds.
+  + Confirm with the Vice-President, Finance that funds have been received by
+    MathSoc before spending.
+  + Submit a cheque request, as per cheque request process, to Vice-President,
+    Finance for reimbursement, noting Endowment Proposal ID or Sponsorship
+    details for internal reconciliation. For assistance with large purchases,
+    contact Vice-President, Finance.
+Note: Funding/sponsorship received includes all applicable taxes. Any amount
+spent over the allotted amount must be approved by Council before the
+reimbursement is processed. Any amount left over from the allotted amount will
+remain in the Club's account for future purchases.
+
+== Teambuilding Expenses <policy>
+Both clubs and MathSoc executives will receive a termly Teambuilding Expense.
+The Teambuilding Expense of a club including the total expense and relevant
+policies to be followed are specified in Policy 6.3.1.
+
+The MathSoc Executive Teambuilding Expense allocation is
+$min((M\cdot F - C - N)\cdot 0.5\%, 300)$ where $M$ is the number of MathSoc fee
+paying students, $F$ is the MathSoc fee, $C$ is the total CIF deduction and $N$
+is the total mathNEWS deduction. This expense may be used at the discretion of
+the MathSoc Executive team for any purpose related to executive teambuilding,
+transition, or wellness during the term. All financial policies (notably Policy
+20.4, 20.6 and 30) must still be followed when requesting reimbursement. The
+Executive Teambuilding Expense is a standalone expense and cannot be reallocated
+into or carried over and will be calculated based on start of term estimates of
+student fees and deductions. The Executive Teambuilding Expense must be spent by
+the end of the first two months of the academic term. Exceptions may be granted
+by the Council on a case-by-case basis.

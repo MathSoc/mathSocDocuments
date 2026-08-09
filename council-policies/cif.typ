@@ -1,0 +1,53 @@
+#counter(heading).update(23)
+= Capital Improvements Fund <policy>
+_Effective September 1, 2020; Replaces December 6, 2011_
+
+== Purpose <policy>
+The purpose of the Capital Improvements Fund shall be to fund lasting capital
+improvements to student space in the Math Faculty, as well as any special
+project funds allocated by Council.
+
+== Fund <policy>
+Each term, seventeen and a half percent (17.5%) of the student fee going towards
+the Society (after math#strong[NEWS]}}' portion is deducted) for each fee-paying
+member of the Society shall be allocated to the Fund.
+
+== Special Project Funds <policy>
+From time to time Council may allocate funds for special projects. Council may
+outline a new funding priority for any special project fund as an alternative to
+section 4.
+
+== Priority of Funding <policy>
+At the discretion of Council, proposals shall be given priority in the following
+decreasing order:
+- Improvements to Society offices, Lounges and the Math Coffee and Donut Shop;
+- Improvements to the offices of recognized Clubs;
+- Improvements to the offices of affiliates including math#strong[NEWS], Math
+  Graduation Committee, and Math Orientation Committee; and
+- Other projects that the committee feels fulfill the purpose of the Fund.
+
+== Procedure <policy>
+Appropriate application forms shall be made available on the MathSoc Website.
+The Vice President, Finance will be responsible in bringing forth any submission
+to Council at the next regularly scheduled Council meeting. The applicants must
+present their proposals to Council to be considered for funding. Council is
+responsible to:
+- Entertain presentations for each proposal, and
+- Approve or deny, some or all of, the requested funding.
+
+If Council approves more than \$5,000, the Board of Directors must review and
+ratify the decision. The Board will not unreasonably deny ratification.
+
+== Over Budget <policy>
+The Executive Committee of MathSoc is responsible for ensuring that the project
+is completed within 120% of the amount approved by the council. If the funding
+is 20% less than the actual spent as well as under \$1000, the Executive
+Committee and the Business Manager can approve the payment of the project and
+will inform the Council and Board about this at the next regular meeting.
+
+== MathSoc Visibility <policy>
+All projects funded by the Capital Improvements Fund must include a visible logo
+or phrase that is in the spirit of "Funded by the Capital Improvements Fund of
+the Mathematics Society" either written in content or physically placed on the
+capital items purchased. If the project is online-based, the logo shall be
+placed under a "Sponsors" section at the prime location of the funded page.
