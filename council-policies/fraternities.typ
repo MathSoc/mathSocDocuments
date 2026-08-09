@@ -1,45 +1,42 @@
-\section{Honorary Lifetime Membership Committee}
-\emph{effective December 4, 2002; replaces March 23, 1999}
+#counter(heading).update(28)
+= Prohibition of Affiliations with Fraternities and Sororities <policy>
+_Effective March 7, 2019_
 
-\subsection{Purpose}
-The Honorary Lifetime Membership Committee is created each term to fulfil the following duties:
-\begin{enumerate}
-\item To solicit nominations for persons to receive an Honorary Lifetime Membership;
-\item To investigate all nominees; and
-\item To recommend, to a general meeting, those whom they deem deserving of an Honorary Lifetime Membership.
-\end{enumerate}
+== Overview <policy>
+This policy governs all fraternities and sororities, as well as any successors,
+assignees, and affiliates of such organizations (hereinafter referred to as
+"fraternities") that wish to become a part of, funded by, or otherwise
+affiliated with MathSoc.
 
-\subsection{Membership}
-The Committee will consist of the following:
-\begin{enumerate}
-\item A Council appointee, as chair; and
-\item One to three Council appointees.
-\item If one of the members of the Committee is to be considered for an Honorary Lifetime Membership, then they shall resign their membership and be replaced by an individual appointed by Council.
-\end{enumerate}
+== Definitions <policy>
+"Fraternities and Sororities" are defined to be any organization which engages
+in any of the following activities:
+- Calling themselves a fraternity,
+- Calling themselves a sorority,
+- Has a name consisting exclusively of just greek letters, or
+- Hazing and/or otherwise extensive initiation process.
 
-\subsection{Procedures}
-The Honorary Lifetime Membership Committee shall be formed within the first six weeks of the winter term. The Committee shall meet at least once after the close of nominations, further meetings being at the discretion of the Committee. All meetings of the Committee are to be closed and confidential.
-At the beginning of each term (and possibly at following meetings), an announcement will be made regarding nominations of candidates for this award.
-There shall be a period of no fewer than two weeks during which nominations can be received. This period shall not extend past the tenth week of classes. There shall be a notice of nominations posted in the Society office at that time. Nominations should include a description of the candidate's contributions.
-If, at the first meeting after the close of nominations, the Committee feels that one or more deserving persons have been overlooked, in that a nomination was not received for said persons, the Committee will:
-\begin{enumerate}
-\item Obtain a description of said person's contributions; and
-\item Consider said persons as nominees in company with the gathered nominations.
-\end{enumerate}
-The Committee will then:
-\begin{enumerate}
-\item Thoroughly investigate all candidates, including discussions with faculty, administration, students (where applicable) and the other stream's Council (note: this does not imply the other stream must confirm the Committee's recommendations); and
-\item Submit a report with recommendations of the recipient(s) to a general meeting of the term for individual confirmation, including a list of names and descriptions of the candidates' involvement.
-\end{enumerate}
-Information regarding nominations shall be maintained in confidence, except as required by the Committee to perform its investigation, and nominations that the Committee recommends to a general meeting. In particular, the Committee shall not reveal its reasons for choosing not to recommend someone.
+Notwithstanding the above, Council may decide that an organization is a
+fraternity or sorority with a majority vote.
 
-\subsection{Criteria for Nominees}
-The Committee shall consider these criteria for nominees and shall not recommend a nominee to Council unless they meet the criteria.
-If currently an undergraduate student in the Faculty, the nominee must be anticipating graduation by the next term with no further study (i.e., their final term of study must be no later than the following spring term).
-The nominee must have either:
-\begin{enumerate}
-\item Contributed significantly for most terms spent on campus to activities that enhance the environment and student life of Math students. The Committee shall consider not only contribution made directly to Math-related activities, but also activities targeting a larger group that significantly benefit Math students; or
-\item Made a singular and truly exceptional contribution to the environment or student life of Math students, going far beyond typical responsibilities of their position, and leading to long-term betterment of undergraduate students in the Faculty.
-\end{enumerate}
+== Prohibitions <policy>
+MathSoc Council, Officers, and clubs shall be prohibited from any affiliations
+with any fraternities as defined above. This prohibitions include (but are not
+limited to):
+- Admitting fraternities as clubs or affiliates
+- Providing funding to fraternities
+- Providing space or resources to fraternities
+- Allowing fraternities to use MathSoc services
+- Allowing fraternities to attend MathSoc council, executive, board, general, or
+  special meetings
+- Hosting, co-hosting, or allowing fraternities to host fraternity events
+- Advertising or allowing fraternities to advertise on MathSoc property
+- Allowing fraternities from using the MathSoc name, logo, URL, email address,
+  or otherwise claiming any affiliation with MathSoc
+- Signing any contracts or Memoranda of Understanding with fraternities
 
-Note: The Honorary Lifetime Membership Award is meant as a prestigious and distinctive award. In order to maintain the significance of this award the Committee should exercise conservatism in recommending nominees to Council, but should not hesitate to do so where the nominee is deserving of the award.
+== Responsibilities <policy>
+MathSoc officers shall be responsible for enforcing these prohibitions against
+any offending fraternities in the day to day operations of MathSoc. Council
+shall not approve any policies, resolutions, or motions that violate the
+prohibitions.

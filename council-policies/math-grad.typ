@@ -1,67 +1,67 @@
-\section{Math Graduation Committee}
-\emph{Effective August 6, 2020; replaces November 27, 2006}\\
+#counter(heading).update(17)
+= Math Graduation Committee <policy>
+_Effective August 6, 2020; replaces November 27, 2006_
 
-\subsection{Definition}
-The Math Graduation Committee (MGC) shall be a standing committee of the Society, the 
-purpose of which shall be to run events, including the Math Graduation Ball, and
-working with the faculty advisor to support the valedictorian selection process for
-the graduating undergraduate students of the Faculty of Mathematics.
+== Definition <policy>
+The Math Graduation Committee (MGC) shall be a standing committee of the
+Society, the purpose of which shall be to run events, including the Math
+Graduation Ball, and working with the faculty advisor to support the
+valedictorian selection process for the graduating undergraduate students of the
+Faculty of Mathematics.
 
-\subsection{Membership}
+== Membership <policy>
 The voting members of the Committee shall be:
-\begin{enumerate}
-\item One faculty advisor appointed by the dean of mathematics;
-\item One or two math graduation chairs, selected by the criteria described below;
-\item One financial director of the Mathematics Graduation Committee;
-\item Members appointed by the Chairs;
-\item The Vice-President, Internal of the Society; and 
-\item The Business Manager of the Society.
-\end{enumerate}
++ One faculty advisor appointed by the Dean of mathematics;
++ One or two math graduation chairs, selected by the criteria described below;
++ One financial director of the Mathematics Graduation Committee;
++ Members appointed by the Chairs;
++ The Vice-President, Internal of the Society; and
++ The Business Manager of the Society.
+
 The non-voting members of the Committee shall be:
-\begin{enumerate}
-\item All graduating members of the Society.
-\end{enumerate}
+- All graduating members of the Society.
 
-\subsection{Math Graduation Chair}
+== Math Graduation Chair <policy>
 The math graduation chair shall:
-\begin{enumerate}
-\item Be a voting and social member of the Society, with strong preference given to students in the graduating class;
-\item Report to the executive team and the Business Manager; and 
-\item Step down after transitioning their successor on the spring term.
-\end{enumerate}
++ Be a voting and social member of the Society, with strong preference given to
+  students in the graduating class;
++ Report to the executive team and the Business Manager; and
++ Step down after transitioning their successor on the spring term.
 
-\subsection{Financial Director}
+== Financial Director <policy>
 The financial director shall:
-\begin{enumerate}
-\item Be appointed by the chair;
-\item Be responsible to the chair;
-\item Share all financial records with the Business Manager and the Vice-President, Finance of the Society; and
-\item Maintain all financial records of the Committee.
-\end{enumerate}
++ Be appointed by the chair;
++ Be responsible to the chair;
++ Share all financial records with the Business Manager and the Vice-President,
+  Finance of the Society; and
++ Maintain all financial records of the Committee.
 
-\subsection{Funding}
-Each term, the Society shall set aside at least one thousand dollars (\$1,000) for the use of the Math Graduation Committee in its budget.
+== Funding <policy>
+Each term, the Society shall set aside at least one thousand dollars (\$1,000)
+for the use of the Math Graduation Committee in its budget.
 
-\subsection{Signing Authority}
-Committee signing authority shall reside with the chair(s), the financial director, 
-and the Vice-President, Finance. In order to authorize a reimbursement, the chair(s) 
-or financial director needs to notify the Vice-President, Finance of the expense 
-ahead of time. If the expenses are not in the budget, the signing authorities should 
-follow regular MathSoc club procedures. 
+== Signing Authority <policy>
+Committee signing authority shall reside with the chair(s), the financial
+director, and the Vice-President, Finance. In order to authorize a
+reimbursement, the chair(s) or financial director needs to notify the
+Vice-President, Finance of the expense ahead of time. If the expenses are not in
+the budget, the signing authorities should follow regular MathSoc club
+procedures.
 
-\subsection{Appointment of the Chair}
-An application for the next chair(s) shall be publicized in the spring term, but if 
-nobody was found to be qualified these can be carried over to the fall term. If there 
-is no chair appointed by the beginning of the winter term, then Council shall appoint 
-a chair for the Committee.
+== Appointment of the Chair <policy>
+An application for the next chair(s) shall be publicized in the spring term, but
+if nobody was found to be qualified these can be carried over to the fall term.
+If there is no chair appointed by the beginning of the winter term, then Council
+shall appoint a chair for the Committee.
 
-Applicants shall be interviewed by the departing chair(s), the Business Manager, 
-or the Faculty advisor, and one other Committee member.
-When the new chair(s) are selected, they shall be ratified by Council.
+Applicants shall be interviewed by the departing chair(s), the Business Manager,
+or the Faculty advisor, and one other Committee member. When the new chair(s)
+are selected, they shall be ratified by Council.
 
-\subsection{Transition of Chairs}
-The outgoing chair(s) shall meet with the incoming chair(s) for a transition 
-meeting to discuss the transition documentation and the procedures for next year. The 
-meeting shall be online or in-person.
+== Transition of Chairs <policy>
+The outgoing chair(s) shall meet with the incoming chair(s) for a transition
+meeting to discuss the transition documentation and the procedures for next
+year. The meeting shall be online or in-person.
 
-In the event no chair is chosen, the Vice-President, Internal shall fill the role.
+In the event no chair is chosen, the Vice-President, Internal shall fill the
+role.

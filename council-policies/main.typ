@@ -25,8 +25,32 @@
 #pagebreak()
 #include "clubs.typ"
 #pagebreak()
-
+#include "first-years.typ"
+#pagebreak()
+#include "math-grad.typ"
+#pagebreak()
+#include "budget.typ"
+#pagebreak()
+#include "electronic.typ"
+#pagebreak()
+#include "hlm.typ"
+#pagebreak()
+#include "math-instructor.typ"
+#pagebreak()
+#include "cif.typ"
+#pagebreak()
+#include "exec-eval.typ"
+#pagebreak()
 #include "engplay.typ"
+#pagebreak()
+
+#include "fraternities.typ"
+#pagebreak()
+#include "alcohol-reimbursement.typ"
+#pagebreak()
+#include "decisions.typ"
+#pagebreak()
+#include "conflict-of-interest.typ"
 #pagebreak()
 
 #include "faculty-reps.typ"
