@@ -1,3 +1,3 @@
-\newRescinded{Computing Board}{rescinded July 18, 2018; replaces December 4, 2002; replaces March 31, 1998}
-%\section{Computing Board}
-%rescinded July 18, 2018; replaces December 4, 2002; replaces March 31, 1998
+#counter(heading).update((1, 12))
+== Computing Board <policy>
+Rescinded July 18, 2018; Replaces December 4, 2002; Replaces March 31, 1998

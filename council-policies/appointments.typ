@@ -1,7 +1,3 @@
-\newRescinded{Lounge and Hallway Bookings}{rescinded July 17, 2018}
-%\section{Lounge and Hallway Bookings}
-%rescinded July 17, 2018
-
-\newRescinded{Equipment Bookings}{rescinded July 17, 2018}
-%\section{Equipment Bookings}
-%rescinded July 17, 2018
+#counter(heading).update((1, 11))
+== Boards, Directors, and Appointed Executive <policy>
+Rescinded July 18, 2018; replaces December 4, 2002; replaces March 31, 1998

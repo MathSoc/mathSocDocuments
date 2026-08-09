@@ -13,7 +13,7 @@
 )
 
 #show heading.where(level: 1): set heading(
-  numbering: none
+  numbering: none,
 )
 #include "foreword.typ"
 #pagebreak()
@@ -38,10 +38,23 @@
 #show heading.where(level: 1): set heading(
   numbering: (..nums) => [Appendix #numbering("A.1", ..nums). #h(1em)],
 )
-
 #counter(heading).update(0)
+
 = Rescinded Policies <policy>
 #include "cnd.typ"
 #include "bookings.typ"
 #include "external-funding.typ"
 #include "keys.typ"
+#include "signing.typ"
+#include "lockers.typ"
+#include "evaluations.typ"
+#include "staff.typ"
+#include "appointments.typ"
+#include "computing.typ"
+#include "novelties.typ"
+#include "management.typ"
+#include "postings.typ"
+#include "wim.typ"
+#include "starcon.typ"
+#include "council-attendance.typ"
+#include "promises-and-commitments.typ"
